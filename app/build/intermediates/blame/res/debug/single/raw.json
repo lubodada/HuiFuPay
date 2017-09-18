@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\raw\\realm_properties",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\raw\\realm_properties"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ub_city.txt",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\raw\\ub_city.txt"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\raw\\paymentsuccess.wav",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\raw\\paymentsuccess.wav"
+    }
+]

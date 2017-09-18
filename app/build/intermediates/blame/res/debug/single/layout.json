@@ -1,0 +1,518 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choice_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\choice_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quickpay_qr_code.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_quickpay_qr_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\keyboadview2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\keyboadview2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_merchantid.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_merchantid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_trade_pwd.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setup_trade_pwd.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_apply_creditcard.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_apply_creditcard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_walletdetail_transaction_details.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_walletdetail_transaction_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dialog_rate_settlement_type.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_dialog_rate_settlement_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qrcode_dialog_prompt.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_qrcode_dialog_prompt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\notification_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receivables_swingcard.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_receivables_swingcard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choice_scope_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\choice_scope_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_datakey.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_datakey.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_phone_recharge_adapter.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_phone_recharge_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_recommend_adapters.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_recommend_adapters.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_phoenrecharge_details.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_phoenrecharge_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_tabhost.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_main_tabhost.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_mode.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dialog_data_information.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_dialog_data_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_cashiername.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_cashiername.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wallet_fragment_recharge.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\layout_wallet_fragment_recharge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qr_code_three.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_qr_code_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_update.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_shopping_mall.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_shopping_mall.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_product_adapter.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_product_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qrcode_dialog_loading.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_qrcode_dialog_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_tixian.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_tixian.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_massage_bytime.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_massage_bytime.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_banner_content.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\view_banner_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_transfer_transfer_amount.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_transfer_transfer_amount.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_myservice_provider.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_myservice_provider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\paysum_listview_activity.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\paysum_listview_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_website.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setup_website.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_contact_us.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setup_contact_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receivables_nfc.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_receivables_nfc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tradingpay_activity.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\tradingpay_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\paylist_activity.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\paylist_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_enter_password.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\pop_enter_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receivables_scancode.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_receivables_scancode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_message_center.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_message_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_rate.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_transrecord_adapter.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_transrecord_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quickpay_qrcode_webview.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_quickpay_qrcode_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_phonerecharge_history.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_phonerecharge_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_login_pwd.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setup_login_pwd.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_perfect_data.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_perfect_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_interest_income.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_interest_income.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_title.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wallet_fragment_transfer.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\layout_wallet_fragment_transfer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_product.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xitongdl.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_xitongdl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wallet_fragment_tixian.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\layout_wallet_fragment_tixian.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item_virtual_keyboard.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\grid_item_virtual_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_upphone.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_upphone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_walletdetail_adapter.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_walletdetail_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wallet_fragment_interest.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\layout_wallet_fragment_interest.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_up.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setting_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qr_code_one.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_qr_code_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_change_phonenumber.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setup_change_phonenumber.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receivables_scanninggun.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_receivables_scanninggun.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receivables_quick.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_receivables_quick.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\button_oncleck_item_num.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\button_oncleck_item_num.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_notice_details.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_notice_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_payment_code.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_payment_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_populwindow_city.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_populwindow_city.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_upemail.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_upemail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_jiesuan_bankcard_adapter.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_jiesuan_bankcard_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dialog_login.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_dialog_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_classify.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_classify.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_popupwindow.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_pay_popupwindow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_jiesuan_info.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setup_jiesuan_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_more.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_recommend.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_recommend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dialog_signout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_dialog_signout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_diaodan_query.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_diaodan_query.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_qrcode.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_scancode.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_scancode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_upmima.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_upmima.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ad_cycle.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_ad_cycle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choice_bank_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\choice_bank_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_jiesuan_bankcard_add.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_jiesuan_bankcard_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_balance.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_balance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_dtn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_dtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dialog_wallet_message_bytime.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_dialog_wallet_message_bytime.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_shopmall_order.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_shopmall_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dialog_activation_code.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_dialog_activation_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_cashier.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_cashier.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_virtual_keyboard.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\layout_virtual_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_about_us.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setup_about_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dialog_bigimg_headportrait.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_dialog_bigimg_headportrait.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_notice_adapter.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_notice_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_zhuce.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_main_zhuce.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dialog_tuijian.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_dialog_tuijian.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mycollection_code.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_mycollection_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dialog_settlementinformation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_dialog_settlementinformation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_payment_passwordview.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_payment_passwordview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_shopmall_orderdetail.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_shopmall_orderdetail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_money_mode.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_money_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_about.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_transrecord.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_transrecord.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\custom_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_recharge.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_recharge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_notice.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_notice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qr_code_two.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_qr_code_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_shopmall_orderlocation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_shopmall_orderlocation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_shanghu_info.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setup_shanghu_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_ykd.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setting_ykd.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_dtn_print.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_dtn_print.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_phone_recharge.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_phone_recharge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_wallet_details.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_wallet_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_shanghuinfo_upload_pictures.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_setup_shanghuinfo_upload_pictures.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_transfer_payeeinfo.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_transfer_payeeinfo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_window_title_image.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\popup_window_title_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_popup_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\layout_popup_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_diaodan.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_diaodan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_payment_item_gride.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_payment_item_gride.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wallet_fragment_all.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\layout_wallet_fragment_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_shopmall_orderadapter.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_function_shopmall_orderadapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zhuce.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_zhuce.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_payment.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_monrynum.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_start_dialog_monrynum.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wallet_jiesuan_bankcard.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\layout\\activity_wallet_jiesuan_bankcard.xml"
+    }
+]

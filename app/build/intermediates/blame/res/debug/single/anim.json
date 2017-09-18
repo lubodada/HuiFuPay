@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\anim\\show_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\anim\\show_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\anim\\list_pop_hidden_anim.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\anim\\list_pop_hidden_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\anim\\list_pop_show_anim.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\anim\\list_pop_show_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hide_to_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\anim\\hide_to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    }
+]

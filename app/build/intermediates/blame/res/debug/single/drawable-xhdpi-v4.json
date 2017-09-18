@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\del_btn.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\del_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gesture_node_normal.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\gesture_node_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_sinaweibo.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_sinaweibo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\load_fail_icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\load_fail_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__settlement.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__settlement.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_search.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\icon_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__store.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__store.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\agent_photo.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\agent_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_wechat.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_wechat.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\load_suc_icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\load_suc_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_jiesuan_card.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\add_jiesuan_card.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__customer_service.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__customer_service.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_gridview_more.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\icon_gridview_more.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_pingan.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_pingan.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_user_bubble.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_bubble.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\wallet_cash.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\wallet_cash.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\empty.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\empty.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_payment.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_payment.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ybb_wallet_shoukuan.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ybb_wallet_shoukuan.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_alipaymoments.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_alipaymoments.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\paytype_unchecked.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\paytype_unchecked.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_email.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_email.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_jiaoyi_detail.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\icon_jiaoyi_detail.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trading_record_gatheringico_d02.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\trading_record_gatheringico_d02.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\wallet_trading.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\wallet_trading.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\img_geti.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\img_geti.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trading_record_gatheringico_t1.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\trading_record_gatheringico_t1.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_setdefault_jiecard.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_setdefault_jiecard.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_ico_application_nomal.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\home_ico_application_nomal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_loading2_0.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\common_loading2_0.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatfavorite.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_wechatfavorite.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_qq.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_qq.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_icon_application_select.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\home_icon_application_select.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatmoments.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_wechatmoments.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ybb_wallet_yeicon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ybb_wallet_yeicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_alipay.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_alipay.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_huaxia.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_huaxia.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_user_gongao.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_gongao.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_user_banknote.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_banknote.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_ico_wallet_nomal.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\home_ico_wallet_nomal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_nongye.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_nongye.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_jiaotong.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_jiaotong.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_zhongguo.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_zhongguo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\yuan.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\yuan.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_youzheng.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_youzheng.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_xingye.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_xingye.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_jianshe.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_jianshe.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\wallet_interest.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\wallet_interest.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_qzone.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_qzone.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ybb_wallet_zhuanzhang.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ybb_wallet_zhuanzhang.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__share.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__share.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__make_money.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__make_money.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_guangfa.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_guangfa.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_shortmessage.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_shortmessage.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_user_jiesuan.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_jiesuan.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_zhogxin.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_zhogxin.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_useraccount_arrow.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_useraccount_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_zhaoshang.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_zhaoshang.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_user_interest.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_interest.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\product_yes_opened.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\product_yes_opened.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_user_bg.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\img_qiye.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\img_qiye.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_ico_receivables_nomal.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\home_ico_receivables_nomal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_gongshang.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_gongshang.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__transaction.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__transaction.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\qianbaomingxi.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\qianbaomingxi.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\loading_icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\loading_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__bill.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__bill.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\workformphoto.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\workformphoto.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_user_limit.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_limit.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_user_chongzhi.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_chongzhi.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__cashregister.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__cashregister.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__credit.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__credit.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_ico_receivables_selected.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\home_ico_receivables_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\product_not_opened.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\product_not_opened.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_pufa.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_pufa.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login_logo.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\login_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_minsheng.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_minsheng.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_user_setting.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bank_guangda.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\bank_guangda.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ybb_wallet_yuer.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ybb_wallet_yuer.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_icon_wallet_selected.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\home_icon_wallet_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__phone.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__phone.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview_product.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview_product.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trading_record_gatheringico_d0.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\trading_record_gatheringico_d0.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\keyboard_btn_backspace.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\keyboard_btn_backspace.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_gridview__serviceprovider.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable-xhdpi\\ic_gridview__serviceprovider.png"
+    }
+]

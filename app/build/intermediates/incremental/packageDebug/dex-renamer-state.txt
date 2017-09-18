@@ -1,0 +1,7 @@
+#Thu Sep 14 16:19:29 CST 2017
+base.0=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5a55cb812d4bfc09b35a80dc16820b3a04f62893
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fed25d8462f5b53d6cce8dd7ea84cf99cc0d923d\\classes.dex
+base.1=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fed25d8462f5b53d6cce8dd7ea84cf99cc0d923d
+file.0=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5a55cb812d4bfc09b35a80dc16820b3a04f62893\\classes.dex

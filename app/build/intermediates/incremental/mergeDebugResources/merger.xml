@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res"/><source path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\generated\res\rs\debug"/><source path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res"><file name="selector_tab_text" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\color\selector_tab_text.xml" qualifiers="" type="color"/><file name="textcolor" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\color\textcolor.xml" qualifiers="" type="color"/><file name="animation_list" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\animation_list.xml" qualifiers="" type="drawable"/><file name="bbuton_danger_rounded" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\bbuton_danger_rounded.xml" qualifiers="" type="drawable"/><file name="bbuton_info_rounded" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\bbuton_info_rounded.xml" qualifiers="" type="drawable"/><file name="bg_bottom_custom_dialog" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\bg_bottom_custom_dialog.xml" qualifiers="" type="drawable"/><file name="bg_checkbox_icon_xxda_xxgh" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\bg_checkbox_icon_xxda_xxgh.xml" qualifiers="" type="drawable"/><file name="bg_middle_custom_dialog" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\bg_middle_custom_dialog.xml" qualifiers="" type="drawable"/><file name="bg_title_custom_dialog" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\bg_title_custom_dialog.xml" qualifiers="" type="drawable"/><file name="button_oncleck_item" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\button_oncleck_item.xml" qualifiers="" type="drawable"/><file name="button_oncleck_item_num" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\button_oncleck_item_num.xml" qualifiers="" type="drawable"/><file name="button_round" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\button_round.xml" qualifiers="" type="drawable"/><file name="button_time" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\button_time.xml" qualifiers="" type="drawable"/><file name="checkbox_style" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\checkbox_style.xml" qualifiers="" type="drawable"/><file name="divider_line_shape" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\divider_line_shape.xml" qualifiers="" type="drawable"/><file name="fill_box" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\fill_box.xml" qualifiers="" type="drawable"/><file name="ic_tab_firstpage" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\ic_tab_firstpage.xml" qualifiers="" type="drawable"/><file name="ic_tab_secondpage" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\ic_tab_secondpage.xml" qualifiers="" type="drawable"/><file name="ic_tab_thirdpage" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\ic_tab_thirdpage.xml" qualifiers="" type="drawable"/><file name="keyboard_btn_selector" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\keyboard_btn_selector.xml" qualifiers="" type="drawable"/><file name="keyboard_btn_selector_nor" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\keyboard_btn_selector_nor.xml" qualifiers="" type="drawable"/><file name="keyboard_text_color_selector" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\keyboard_text_color_selector.xml" qualifiers="" type="drawable"/><file name="loading" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\loading.xml" qualifiers="" type="drawable"/><file name="loading_black_303132_bg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\loading_black_303132_bg.xml" qualifiers="" type="drawable"/><file name="login_button_style" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\login_button_style.xml" qualifiers="" type="drawable"/><file name="mm_title_back_btn" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\mm_title_back_btn.xml" qualifiers="" type="drawable"/><file name="mm_title_right_btn" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\mm_title_right_btn.xml" qualifiers="" type="drawable"/><file name="notice_loading" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\notice_loading.xml" qualifiers="" type="drawable"/><file name="payitem_button_style" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\payitem_button_style.xml" qualifiers="" type="drawable"/><file name="pg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\pg.xml" qualifiers="" type="drawable"/><file name="pg_l" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\pg_l.xml" qualifiers="" type="drawable"/><file name="popup_window_bg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\popup_window_bg.xml" qualifiers="" type="drawable"/><file name="promptbox_dialog_view" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\promptbox_dialog_view.xml" qualifiers="" type="drawable"/><file name="qr_code_round" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\qr_code_round.xml" qualifiers="" type="drawable"/><file name="rotate_loading_icon" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\rotate_loading_icon.xml" qualifiers="" type="drawable"/><file name="round_codeview" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\round_codeview.xml" qualifiers="" type="drawable"/><file name="round_datainformation_view" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\round_datainformation_view.xml" qualifiers="" type="drawable"/><file name="round_imageview" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\round_imageview.xml" qualifiers="" type="drawable"/><file name="selector_gride" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\selector_gride.xml" qualifiers="" type="drawable"/><file name="selector_key_del" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\selector_key_del.xml" qualifiers="" type="drawable"/><file name="shape_input_area" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\shape_input_area.xml" qualifiers="" type="drawable"/><file name="ssdk_oks_classic_platform_cell_back" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\ssdk_oks_classic_platform_cell_back.xml" qualifiers="" type="drawable"/><file name="ssdk_oks_classic_progressbar" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\ssdk_oks_classic_progressbar.xml" qualifiers="" type="drawable"/><file name="textbackground" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\textbackground.xml" qualifiers="" type="drawable"/><file name="txt_sharp" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\txt_sharp.xml" qualifiers="" type="drawable"/><file name="uploadimage" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\uploadimage.xml" qualifiers="" type="drawable"/><file name="wheel_bg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\wheel_bg.xml" qualifiers="" type="drawable"/><file name="wheel_val" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable\wheel_val.xml" qualifiers="" type="drawable"/><file name="agent_photo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\agent_photo.png" qualifiers="hdpi-v4" type="drawable"/><file name="cashier_alipay" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\cashier_alipay.png" qualifiers="hdpi-v4" type="drawable"/><file name="cashier_baidu" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\cashier_baidu.png" qualifiers="hdpi-v4" type="drawable"/><file name="cashier_baidu1" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\cashier_baidu1.png" qualifiers="hdpi-v4" type="drawable"/><file name="cashier_binding_ico" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\cashier_binding_ico.png" qualifiers="hdpi-v4" type="drawable"/><file name="cashier_send_ico" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\cashier_send_ico.png" qualifiers="hdpi-v4" type="drawable"/><file name="cashier_wechat" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\cashier_wechat.png" qualifiers="hdpi-v4" type="drawable"/><file name="cashier_yinlian" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\cashier_yinlian.png" qualifiers="hdpi-v4" type="drawable"/><file name="cashier_yizhifu" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\cashier_yizhifu.png" qualifiers="hdpi-v4" type="drawable"/><file name="dashedlin" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\dashedlin.png" qualifiers="hdpi-v4" type="drawable"/><file name="delete_user" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\delete_user.png" qualifiers="hdpi-v4" type="drawable"/><file name="edit_bg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\edit_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="esign" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\esign.bmp" qualifiers="hdpi-v4" type="drawable"/><file name="first" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\first.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="gdtype_arrow_right" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\gdtype_arrow_right.png" qualifiers="hdpi-v4" type="drawable"/><file name="guanbi" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\guanbi.png" qualifiers="hdpi-v4" type="drawable"/><file name="home_icon_application_select" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\home_icon_application_select.png" qualifiers="hdpi-v4" type="drawable"/><file name="home_icon_wallet_selected" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\home_icon_wallet_selected.png" qualifiers="hdpi-v4" type="drawable"/><file name="home_ico_application_nomal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\home_ico_application_nomal.png" qualifiers="hdpi-v4" type="drawable"/><file name="home_ico_receivables_nomal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\home_ico_receivables_nomal.png" qualifiers="hdpi-v4" type="drawable"/><file name="home_ico_receivables_selected" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\home_ico_receivables_selected.png" qualifiers="hdpi-v4" type="drawable"/><file name="home_ico_wallet_nomal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\home_ico_wallet_nomal.png" qualifiers="hdpi-v4" type="drawable"/><file name="hook_p_reg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\hook_p_reg.png" qualifiers="hdpi-v4" type="drawable"/><file name="hook_reg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\hook_reg.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_choice_check" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_choice_check.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_choice_uncheck" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_choice_uncheck.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_copy_tuijian" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_copy_tuijian.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_function_tuijian" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_function_tuijian.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_login_zhuce" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_login_zhuce.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_next" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_next.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_open_yinlian" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_open_yinlian.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_saomashoukuan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_saomashoukuan.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_tuijian_beijing" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_tuijian_beijing.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_yimafu" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_yimafu.png" qualifiers="hdpi-v4" type="drawable"/><file name="huifu_yinlainkuaijie" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\huifu_yinlainkuaijie.png" qualifiers="hdpi-v4" type="drawable"/><file name="hui_ok" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\hui_ok.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_avatar_login" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_avatar_login.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_crash_main" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_crash_main.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_dengl_num" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_dengl_num.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_dengl_num_num" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_dengl_num_num.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_dengl_on" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_dengl_on.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_empty" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_empty.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_error" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_error.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_guanwang" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_guanwang.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_jiesuan_card" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_jiesuan_card.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_list_right" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_list_right.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_phone" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_phone.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_point" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_point.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_point_pre" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_point_pre.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_qq" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_qq.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_receipt_scan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_receipt_scan.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_stub" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_stub.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_weibo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_weibo.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="icon_weixin" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_weixin.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_xyda_xxgh_num" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_xyda_xxgh_num.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_xyda_xxgh_on" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\icon_xyda_xxgh_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="ico_qpay_back" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ico_qpay_back.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="id_card_back_reg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\id_card_back_reg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="id_card_front" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\id_card_front.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="id_card_front_reg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\id_card_front_reg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="id_card_photo_reg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\id_card_photo_reg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="jihuocodesao" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\jihuocodesao.png" qualifiers="hdpi-v4" type="drawable"/><file name="loading_01" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\loading_01.png" qualifiers="hdpi-v4" type="drawable"/><file name="loading_02" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\loading_02.png" qualifiers="hdpi-v4" type="drawable"/><file name="loading_03" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\loading_03.png" qualifiers="hdpi-v4" type="drawable"/><file name="loading_04" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\loading_04.png" qualifiers="hdpi-v4" type="drawable"/><file name="loading_05" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\loading_05.png" qualifiers="hdpi-v4" type="drawable"/><file name="loading_06" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\loading_06.png" qualifiers="hdpi-v4" type="drawable"/><file name="loading_07" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\loading_07.png" qualifiers="hdpi-v4" type="drawable"/><file name="login" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_btn_reg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login_btn_reg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_btn_reg_p" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login_btn_reg_p.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_button_nor" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login_button_nor.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_button_press" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login_button_press.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_input" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login_input.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_logo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login_logo.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_more_down" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login_more_down.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_more_up" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login_more_up.png" qualifiers="hdpi-v4" type="drawable"/><file name="login_phone" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\login_phone.png" qualifiers="hdpi-v4" type="drawable"/><file name="mima" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mima.png" qualifiers="hdpi-v4" type="drawable"/><file name="mmtitle_bg_alpha" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mmtitle_bg_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_submenu_normal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mm_submenu_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_back_focused" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mm_title_back_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_back_normal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mm_title_back_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_back_pressed" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mm_title_back_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_btn_focused" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mm_title_btn_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_btn_menu_normal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mm_title_btn_menu_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_btn_normal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mm_title_btn_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="mm_title_btn_pressed" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\mm_title_btn_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="multiple_choice_reg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\multiple_choice_reg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="passward" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\passward.png" qualifiers="hdpi-v4" type="drawable"/><file name="phone" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\phone.png" qualifiers="hdpi-v4" type="drawable"/><file name="product_not_opened" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\product_not_opened.png" qualifiers="hdpi-v4" type="drawable"/><file name="product_yes_opened" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\product_yes_opened.png" qualifiers="hdpi-v4" type="drawable"/><file name="pwd_eye" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\pwd_eye.png" qualifiers="hdpi-v4" type="drawable"/><file name="pwd_noeye" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\pwd_noeye.png" qualifiers="hdpi-v4" type="drawable"/><file name="qrcode_scan_line" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\qrcode_scan_line.png" qualifiers="hdpi-v4" type="drawable"/><file name="qrcode_weixin" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\qrcode_weixin.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="reg_photo_tishi_close" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\reg_photo_tishi_close.png" qualifiers="hdpi-v4" type="drawable"/><file name="roller" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\roller.png" qualifiers="hdpi-v4" type="drawable"/><file name="setting" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\setting.png" qualifiers="hdpi-v4" type="drawable"/><file name="stars" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\stars.png" qualifiers="hdpi-v4" type="drawable"/><file name="store_loading" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\store_loading.png" qualifiers="hdpi-v4" type="drawable"/><file name="t_icon_info" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\t_icon_info.png" qualifiers="hdpi-v4" type="drawable"/><file name="username" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\username.png" qualifiers="hdpi-v4" type="drawable"/><file name="username1" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\username1.png" qualifiers="hdpi-v4" type="drawable"/><file name="xian" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\xian.png" qualifiers="hdpi-v4" type="drawable"/><file name="xlistview_arrow" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\xlistview_arrow.png" qualifiers="hdpi-v4" type="drawable"/><file name="ybb_bankcard_add" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ybb_bankcard_add.png" qualifiers="hdpi-v4" type="drawable"/><file name="ybb_mearch_businesslicence" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ybb_mearch_businesslicence.png" qualifiers="hdpi-v4" type="drawable"/><file name="ybb_mearch_zuzhi_code" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ybb_mearch_zuzhi_code.png" qualifiers="hdpi-v4" type="drawable"/><file name="ybb_wallet_fu_logo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ybb_wallet_fu_logo.png" qualifiers="hdpi-v4" type="drawable"/><file name="ybb_wallet_fu_yuer" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ybb_wallet_fu_yuer.png" qualifiers="hdpi-v4" type="drawable"/><file name="ybb_wallet_shoukuan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ybb_wallet_shoukuan.png" qualifiers="hdpi-v4" type="drawable"/><file name="ybb_wallet_yuer" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ybb_wallet_yuer.png" qualifiers="hdpi-v4" type="drawable"/><file name="ybb_wallet_zhuanzhang" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ybb_wallet_zhuanzhang.png" qualifiers="hdpi-v4" type="drawable"/><file name="ybb_wallet_zzphone" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ybb_wallet_zzphone.png" qualifiers="hdpi-v4" type="drawable"/><file name="ye_button_carrypass" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ye_button_carrypass.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ye_button_carryunpass" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ye_button_carryunpass.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ye_button_putinpass" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ye_button_putinpass.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ye_button_putinunpass" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\ye_button_putinunpass.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="yuan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-hdpi\yuan.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="login_logo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-mdpi\login_logo.png" qualifiers="mdpi-v4" type="drawable"/><file name="add_jiesuan_card" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\add_jiesuan_card.png" qualifiers="xhdpi-v4" type="drawable"/><file name="agent_photo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\agent_photo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_gongshang" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_gongshang.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_guangda" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_guangda.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_guangfa" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_guangfa.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_huaxia" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_huaxia.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_jianshe" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_jianshe.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_jiaotong" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_jiaotong.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_minsheng" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_minsheng.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_nongye" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_nongye.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_pingan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_pingan.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_pufa" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_pufa.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_xingye" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_xingye.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_youzheng" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_youzheng.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_zhaoshang" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_zhaoshang.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_zhogxin" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_zhogxin.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bank_zhongguo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\bank_zhongguo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="common_loading2_0" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\common_loading2_0.png" qualifiers="xhdpi-v4" type="drawable"/><file name="del_btn" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\del_btn.png" qualifiers="xhdpi-v4" type="drawable"/><file name="empty" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\empty.png" qualifiers="xhdpi-v4" type="drawable"/><file name="gesture_node_normal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\gesture_node_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="home_icon_application_select" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\home_icon_application_select.png" qualifiers="xhdpi-v4" type="drawable"/><file name="home_icon_wallet_selected" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\home_icon_wallet_selected.png" qualifiers="xhdpi-v4" type="drawable"/><file name="home_ico_application_nomal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\home_ico_application_nomal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="home_ico_receivables_nomal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\home_ico_receivables_nomal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="home_ico_receivables_selected" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\home_ico_receivables_selected.png" qualifiers="xhdpi-v4" type="drawable"/><file name="home_ico_wallet_nomal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\home_ico_wallet_nomal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_gridview_more" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\icon_gridview_more.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_jiaoyi_detail" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\icon_jiaoyi_detail.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon_search" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\icon_search.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview_product" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview_product.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__bill" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__bill.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__cashregister" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__cashregister.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__credit" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__credit.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__customer_service" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__customer_service.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__make_money" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__make_money.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__phone" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__phone.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__serviceprovider" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__serviceprovider.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__settlement" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__settlement.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__share" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__share.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__store" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__store.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gridview__transaction" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_gridview__transaction.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_payment" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_payment.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_setdefault_jiecard" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_setdefault_jiecard.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_useraccount_arrow" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_useraccount_arrow.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_user_banknote" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_user_banknote.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_user_bg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_user_bg.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_user_bubble" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_user_bubble.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_user_chongzhi" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_user_chongzhi.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_user_gongao" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_user_gongao.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_user_interest" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_user_interest.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_user_jiesuan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_user_jiesuan.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_user_limit" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_user_limit.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_user_setting" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ic_user_setting.png" qualifiers="xhdpi-v4" type="drawable"/><file name="img_geti" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\img_geti.png" qualifiers="xhdpi-v4" type="drawable"/><file name="img_qiye" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\img_qiye.png" qualifiers="xhdpi-v4" type="drawable"/><file name="keyboard_btn_backspace" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\keyboard_btn_backspace.png" qualifiers="xhdpi-v4" type="drawable"/><file name="loading_icon" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\loading_icon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="load_fail_icon" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\load_fail_icon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="load_suc_icon" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\load_suc_icon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="login_logo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\login_logo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="paytype_unchecked" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\paytype_unchecked.png" qualifiers="xhdpi-v4" type="drawable"/><file name="product_not_opened" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\product_not_opened.png" qualifiers="xhdpi-v4" type="drawable"/><file name="product_yes_opened" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\product_yes_opened.png" qualifiers="xhdpi-v4" type="drawable"/><file name="qianbaomingxi" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\qianbaomingxi.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_alipay" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_alipay.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_alipaymoments" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_alipaymoments.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_email" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_email.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_qq" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_qq.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_qzone" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_qzone.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_shortmessage" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_shortmessage.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_sinaweibo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_sinaweibo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_wechat" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_wechat.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_wechatfavorite" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_wechatfavorite.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ssdk_oks_classic_wechatmoments" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ssdk_oks_classic_wechatmoments.png" qualifiers="xhdpi-v4" type="drawable"/><file name="tips_popup_win_bg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\tips_popup_win_bg.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="trading_record_gatheringico_d0" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\trading_record_gatheringico_d0.png" qualifiers="xhdpi-v4" type="drawable"/><file name="trading_record_gatheringico_d02" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\trading_record_gatheringico_d02.png" qualifiers="xhdpi-v4" type="drawable"/><file name="trading_record_gatheringico_t1" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\trading_record_gatheringico_t1.png" qualifiers="xhdpi-v4" type="drawable"/><file name="wallet_cash" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\wallet_cash.png" qualifiers="xhdpi-v4" type="drawable"/><file name="wallet_interest" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\wallet_interest.png" qualifiers="xhdpi-v4" type="drawable"/><file name="wallet_trading" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\wallet_trading.png" qualifiers="xhdpi-v4" type="drawable"/><file name="workformphoto" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\workformphoto.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ybb_wallet_shoukuan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ybb_wallet_shoukuan.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ybb_wallet_yeicon" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ybb_wallet_yeicon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ybb_wallet_yuer" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ybb_wallet_yuer.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ybb_wallet_zhuanzhang" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ybb_wallet_zhuanzhang.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ye_button_carrypass" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ye_button_carrypass.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ye_button_carryunpass" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ye_button_carryunpass.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ye_button_putinunpass" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\ye_button_putinunpass.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="yuan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xhdpi\yuan.png" qualifiers="xhdpi-v4" type="drawable"/><file name="agent_photo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\agent_photo.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="home_icon_application_select" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\home_icon_application_select.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="home_icon_wallet_selected" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\home_icon_wallet_selected.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="home_ico_application_nomal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\home_ico_application_nomal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="home_ico_receivables_nomal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\home_ico_receivables_nomal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="home_ico_receivables_selected" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\home_ico_receivables_selected.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="home_ico_wallet_nomal" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\home_ico_wallet_nomal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="hook_p_reg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\hook_p_reg.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="hook_reg" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\hook_reg.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="login_logo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\login_logo.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="no_information_2" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\no_information_2.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ok_btn" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\ok_btn.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="paytype_ali" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\paytype_ali.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="paytype_checked" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\paytype_checked.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="paytype_unchecked" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\paytype_unchecked.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ybb_vparrow_left" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\ybb_vparrow_left.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ybb_vparrow_right" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\ybb_vparrow_right.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ye_button_putinunpass" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\ye_button_putinunpass.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="yuan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\drawable-xxhdpi\yuan.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_ad_cycle" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_ad_cycle.xml" qualifiers="" type="layout"/><file name="activity_capture" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_capture.xml" qualifiers="" type="layout"/><file name="activity_dialog_activation_code" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_dialog_activation_code.xml" qualifiers="" type="layout"/><file name="activity_dialog_bigimg_headportrait" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_dialog_bigimg_headportrait.xml" qualifiers="" type="layout"/><file name="activity_dialog_data_information" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_dialog_data_information.xml" qualifiers="" type="layout"/><file name="activity_dialog_login" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_dialog_login.xml" qualifiers="" type="layout"/><file name="activity_dialog_rate_settlement_type" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_dialog_rate_settlement_type.xml" qualifiers="" type="layout"/><file name="activity_dialog_settlementinformation" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_dialog_settlementinformation.xml" qualifiers="" type="layout"/><file name="activity_dialog_signout" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_dialog_signout.xml" qualifiers="" type="layout"/><file name="activity_dialog_tuijian" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_dialog_tuijian.xml" qualifiers="" type="layout"/><file name="activity_dialog_wallet_message_bytime" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_dialog_wallet_message_bytime.xml" qualifiers="" type="layout"/><file name="activity_function_apply_creditcard" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_apply_creditcard.xml" qualifiers="" type="layout"/><file name="activity_function_cashier" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_cashier.xml" qualifiers="" type="layout"/><file name="activity_function_diaodan" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_diaodan.xml" qualifiers="" type="layout"/><file name="activity_function_diaodan_query" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_diaodan_query.xml" qualifiers="" type="layout"/><file name="activity_function_more" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_more.xml" qualifiers="" type="layout"/><file name="activity_function_myservice_provider" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_myservice_provider.xml" qualifiers="" type="layout"/><file name="activity_function_phoenrecharge_details" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_phoenrecharge_details.xml" qualifiers="" type="layout"/><file name="activity_function_phonerecharge_history" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_phonerecharge_history.xml" qualifiers="" type="layout"/><file name="activity_function_phone_recharge" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_phone_recharge.xml" qualifiers="" type="layout"/><file name="activity_function_phone_recharge_adapter" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_phone_recharge_adapter.xml" qualifiers="" type="layout"/><file name="activity_function_product" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_product.xml" qualifiers="" type="layout"/><file name="activity_function_product_adapter" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_product_adapter.xml" qualifiers="" type="layout"/><file name="activity_function_recommend" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_recommend.xml" qualifiers="" type="layout"/><file name="activity_function_recommend_adapters" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_recommend_adapters.xml" qualifiers="" type="layout"/><file name="activity_function_shopmall_order" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_shopmall_order.xml" qualifiers="" type="layout"/><file name="activity_function_shopmall_orderadapter" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_shopmall_orderadapter.xml" qualifiers="" type="layout"/><file name="activity_function_shopmall_orderdetail" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_shopmall_orderdetail.xml" qualifiers="" type="layout"/><file name="activity_function_shopmall_orderlocation" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_shopmall_orderlocation.xml" qualifiers="" type="layout"/><file name="activity_function_shopping_mall" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_shopping_mall.xml" qualifiers="" type="layout"/><file name="activity_function_transrecord" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_transrecord.xml" qualifiers="" type="layout"/><file name="activity_function_transrecord_adapter" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_function_transrecord_adapter.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_main_tabhost" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_main_tabhost.xml" qualifiers="" type="layout"/><file name="activity_main_zhuce" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_main_zhuce.xml" qualifiers="" type="layout"/><file name="activity_mycollection_code" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_mycollection_code.xml" qualifiers="" type="layout"/><file name="activity_pay_popupwindow" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_pay_popupwindow.xml" qualifiers="" type="layout"/><file name="activity_perfect_data" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_perfect_data.xml" qualifiers="" type="layout"/><file name="activity_populwindow_city" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_populwindow_city.xml" qualifiers="" type="layout"/><file name="activity_qrcode_dialog_loading" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_qrcode_dialog_loading.xml" qualifiers="" type="layout"/><file name="activity_qrcode_dialog_prompt" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_qrcode_dialog_prompt.xml" qualifiers="" type="layout"/><file name="activity_qr_code_one" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_qr_code_one.xml" qualifiers="" type="layout"/><file name="activity_qr_code_three" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_qr_code_three.xml" qualifiers="" type="layout"/><file name="activity_qr_code_two" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_qr_code_two.xml" qualifiers="" type="layout"/><file name="activity_quickpay_qrcode_webview" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_quickpay_qrcode_webview.xml" qualifiers="" type="layout"/><file name="activity_quickpay_qr_code" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_quickpay_qr_code.xml" qualifiers="" type="layout"/><file name="activity_receivables_nfc" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_receivables_nfc.xml" qualifiers="" type="layout"/><file name="activity_receivables_quick" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_receivables_quick.xml" qualifiers="" type="layout"/><file name="activity_receivables_scancode" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_receivables_scancode.xml" qualifiers="" type="layout"/><file name="activity_receivables_scanninggun" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_receivables_scanninggun.xml" qualifiers="" type="layout"/><file name="activity_receivables_swingcard" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_receivables_swingcard.xml" qualifiers="" type="layout"/><file name="activity_setting" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setting.xml" qualifiers="" type="layout"/><file name="activity_setting_up" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setting_up.xml" qualifiers="" type="layout"/><file name="activity_setting_ykd" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setting_ykd.xml" qualifiers="" type="layout"/><file name="activity_setup_about_us" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setup_about_us.xml" qualifiers="" type="layout"/><file name="activity_setup_change_phonenumber" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setup_change_phonenumber.xml" qualifiers="" type="layout"/><file name="activity_setup_contact_us" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setup_contact_us.xml" qualifiers="" type="layout"/><file name="activity_setup_jiesuan_info" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setup_jiesuan_info.xml" qualifiers="" type="layout"/><file name="activity_setup_login_pwd" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setup_login_pwd.xml" qualifiers="" type="layout"/><file name="activity_setup_shanghuinfo_upload_pictures" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setup_shanghuinfo_upload_pictures.xml" qualifiers="" type="layout"/><file name="activity_setup_shanghu_info" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setup_shanghu_info.xml" qualifiers="" type="layout"/><file name="activity_setup_trade_pwd" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setup_trade_pwd.xml" qualifiers="" type="layout"/><file name="activity_setup_website" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_setup_website.xml" qualifiers="" type="layout"/><file name="activity_start" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_about" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_about.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_cashiername" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_cashiername.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_classify" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_classify.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_datakey" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_datakey.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_dtn" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_dtn.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_dtn_print" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_dtn_print.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_merchantid" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_merchantid.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_mode" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_mode.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_money_mode" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_money_mode.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_monrynum" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_monrynum.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_qrcode" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_qrcode.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_scancode" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_scancode.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_update" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_update.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_upemail" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_upemail.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_upmima" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_upmima.xml" qualifiers="" type="layout"/><file name="activity_start_dialog_upphone" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_start_dialog_upphone.xml" qualifiers="" type="layout"/><file name="activity_title" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_title.xml" qualifiers="" type="layout"/><file name="activity_wallet" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet.xml" qualifiers="" type="layout"/><file name="activity_wallet_balance" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_balance.xml" qualifiers="" type="layout"/><file name="activity_wallet_interest_income" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_interest_income.xml" qualifiers="" type="layout"/><file name="activity_wallet_jiesuan_bankcard" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_jiesuan_bankcard.xml" qualifiers="" type="layout"/><file name="activity_wallet_jiesuan_bankcard_adapter" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_jiesuan_bankcard_adapter.xml" qualifiers="" type="layout"/><file name="activity_wallet_jiesuan_bankcard_add" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_jiesuan_bankcard_add.xml" qualifiers="" type="layout"/><file name="activity_wallet_massage_bytime" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_massage_bytime.xml" qualifiers="" type="layout"/><file name="activity_wallet_message_center" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_message_center.xml" qualifiers="" type="layout"/><file name="activity_wallet_notice" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_notice.xml" qualifiers="" type="layout"/><file name="activity_wallet_notice_adapter" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_notice_adapter.xml" qualifiers="" type="layout"/><file name="activity_wallet_notice_details" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_notice_details.xml" qualifiers="" type="layout"/><file name="activity_wallet_payment" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_payment.xml" qualifiers="" type="layout"/><file name="activity_wallet_payment_code" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_payment_code.xml" qualifiers="" type="layout"/><file name="activity_wallet_payment_item_gride" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_payment_item_gride.xml" qualifiers="" type="layout"/><file name="activity_wallet_payment_passwordview" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_payment_passwordview.xml" qualifiers="" type="layout"/><file name="activity_wallet_rate" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_rate.xml" qualifiers="" type="layout"/><file name="activity_wallet_recharge" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_recharge.xml" qualifiers="" type="layout"/><file name="activity_wallet_tixian" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_tixian.xml" qualifiers="" type="layout"/><file name="activity_wallet_transfer_payeeinfo" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_transfer_payeeinfo.xml" qualifiers="" type="layout"/><file name="activity_wallet_transfer_transfer_amount" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_transfer_transfer_amount.xml" qualifiers="" type="layout"/><file name="activity_wallet_walletdetail_adapter" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_walletdetail_adapter.xml" qualifiers="" type="layout"/><file name="activity_wallet_walletdetail_transaction_details" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_walletdetail_transaction_details.xml" qualifiers="" type="layout"/><file name="activity_wallet_wallet_details" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_wallet_wallet_details.xml" qualifiers="" type="layout"/><file name="activity_xitongdl" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_xitongdl.xml" qualifiers="" type="layout"/><file name="activity_zhuce" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\activity_zhuce.xml" qualifiers="" type="layout"/><file name="button_oncleck_item_num" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\button_oncleck_item_num.xml" qualifiers="" type="layout"/><file name="choice_bank_item" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\choice_bank_item.xml" qualifiers="" type="layout"/><file name="choice_item" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\choice_item.xml" qualifiers="" type="layout"/><file name="choice_scope_item" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\choice_scope_item.xml" qualifiers="" type="layout"/><file name="custom_dialog_layout" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\custom_dialog_layout.xml" qualifiers="" type="layout"/><file name="grid_item_virtual_keyboard" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\grid_item_virtual_keyboard.xml" qualifiers="" type="layout"/><file name="keyboadview2" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\keyboadview2.xml" qualifiers="" type="layout"/><file name="layout_popup_bottom" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\layout_popup_bottom.xml" qualifiers="" type="layout"/><file name="layout_virtual_keyboard" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\layout_virtual_keyboard.xml" qualifiers="" type="layout"/><file name="layout_wallet_fragment_all" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\layout_wallet_fragment_all.xml" qualifiers="" type="layout"/><file name="layout_wallet_fragment_interest" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\layout_wallet_fragment_interest.xml" qualifiers="" type="layout"/><file name="layout_wallet_fragment_recharge" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\layout_wallet_fragment_recharge.xml" qualifiers="" type="layout"/><file name="layout_wallet_fragment_tixian" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\layout_wallet_fragment_tixian.xml" qualifiers="" type="layout"/><file name="layout_wallet_fragment_transfer" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\layout_wallet_fragment_transfer.xml" qualifiers="" type="layout"/><file name="notification_item" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\notification_item.xml" qualifiers="" type="layout"/><file name="paylist_activity" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\paylist_activity.xml" qualifiers="" type="layout"/><file name="paysum_listview_activity" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\paysum_listview_activity.xml" qualifiers="" type="layout"/><file name="popup_window_title_image" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\popup_window_title_image.xml" qualifiers="" type="layout"/><file name="pop_enter_password" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\pop_enter_password.xml" qualifiers="" type="layout"/><file name="tradingpay_activity" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\tradingpay_activity.xml" qualifiers="" type="layout"/><file name="view_banner_content" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\view_banner_content.xml" qualifiers="" type="layout"/><file name="xlistview_footer" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\xlistview_footer.xml" qualifiers="" type="layout"/><file name="xlistview_header" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\layout\xlistview_header.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\menu\activity_main.xml" qualifiers="" type="menu"/><file name="beep" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\raw\beep.ogg" qualifiers="" type="raw"/><file name="paymentsuccess" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\raw\paymentsuccess.wav" qualifiers="" type="raw"/><file name="realm_properties" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\raw\realm_properties" qualifiers="" type="raw"/><file name="ub_city" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\raw\ub_city.txt" qualifiers="" type="raw"/><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\array.xml" qualifiers=""><string-array name="陕西">
+      <item>-城市-</item>
+      <item>西安</item>
+      <item>铜川</item>
+      <item>宝鸡</item>
+      <item>咸阳</item>
+      <item>渭南</item>
+      <item>延安</item>
+      <item>汉中</item>
+      <item>榆林</item>
+      <item>安康</item>
+      <item>商洛</item>
+   </string-array><string-array name="河北">
+      <item>-城市-</item>
+      <item>石家庄</item>
+      <item>唐山</item>
+      <item>秦皇岛</item>
+      <item>邯郸</item>
+      <item>邢台</item>
+      <item>保定</item>
+      <item>张家口</item>
+      <item>承德</item>
+      <item>沧州</item>
+      <item>廊坊</item>
+      <item>衡水</item>
+   </string-array><string-array name="河南">
+      <item>-城市-</item>
+      <item>郑州</item>
+      <item>开封</item>
+      <item>洛阳</item>
+      <item>平顶山</item>
+      <item>安阳</item>
+      <item>鹤壁</item>
+      <item>新乡</item>
+      <item>焦作</item>
+      <item>濮阳</item>
+      <item>许昌</item>
+      <item>漯河</item>
+      <item>三门峡</item>
+      <item>南阳</item>
+      <item>商丘</item>
+      <item>信阳</item>
+      <item>周口</item>
+      <item>驻马店</item>
+      <item>济源</item>
+   </string-array><string-array name="广东">
+      <item>-城市-</item>
+      <item>广州</item>
+      <item>韶关</item>
+      <item>深圳</item>
+      <item>珠海</item>
+      <item>汕头</item>
+      <item>佛山</item>
+      <item>江门</item>
+      <item>湛江</item>
+      <item>茂名</item>
+      <item>肇庆</item>
+      <item>惠州</item>
+      <item>梅州</item>
+      <item>汕尾</item>
+      <item>河源</item>
+      <item>阳江</item>
+      <item>清远</item>
+      <item>东莞</item>
+      <item>中山</item>
+      <item>潮州</item>
+      <item>揭阳</item>
+      <item>云浮</item>
+   </string-array><string-array name="spingbank">
+        <item>中国工商银行</item>
+        <item>中国农业银行</item>
+        <item>中国银行</item>
+        <item>中国建设银行</item>
+        <item>中国广大银行</item>
+        <item>中国民生银行</item>
+        <item>广东发展银行</item>
+        <item>平安银行(深圳发展银行)</item>
+        <item>招商银行</item>
+        <item>交通银行</item>
+        <item>华夏银行</item>
+        <item>中信银行</item>
+        <item>兴业银行</item>
+        <item>邮政储蓄</item>
+        <item>上海浦东发展银行</item>
+    </string-array><string-array name="湖北">
+      <item>-城市-</item>
+      <item>武汉</item>
+      <item>黄石</item>
+      <item>十堰</item>
+      <item>宜昌</item>
+      <item>襄阳</item>
+      <item>鄂州</item>
+      <item>荆门</item>
+      <item>孝感</item>
+      <item>荆州</item>
+      <item>黄冈</item>
+      <item>咸宁</item>
+      <item>随州</item>
+      <item>恩施</item>
+      <item>仙桃</item>
+      <item>潜江</item>
+      <item>天门</item>
+      <item>神农架</item>
+   </string-array><string-array name="湖南">
+      <item>-城市-</item>
+      <item>长沙</item>
+      <item>株洲</item>
+      <item>湘潭</item>
+      <item>衡阳</item>
+      <item>邵阳</item>
+      <item>岳阳</item>
+      <item>常德</item>
+      <item>张家界</item>
+      <item>益阳</item>
+      <item>郴州</item>
+      <item>永州</item>
+      <item>怀化</item>
+      <item>娄底</item>
+      <item>湘西</item>
+   </string-array><string-array name="江西">
+      <item>-城市-</item>
+      <item>南昌</item>
+      <item>景德镇</item>
+      <item>萍乡</item>
+      <item>九江</item>
+      <item>新余</item>
+      <item>鹰潭</item>
+      <item>赣州</item>
+      <item>吉安</item>
+      <item>宜春</item>
+      <item>抚州</item>
+      <item>上饶</item>
+   </string-array><string-array name="海南">
+      <item>-城市-</item>
+      <item>海口</item>
+      <item>三亚</item>
+      <item>三沙</item>
+      <item>五指山</item>
+      <item>琼海</item>
+      <item>儋州</item>
+      <item>文昌</item>
+      <item>万宁</item>
+      <item>东方</item>
+      <item>定安</item>
+      <item>屯昌</item>
+      <item>澄迈</item>
+      <item>临高</item>
+      <item>白沙</item>
+      <item>昌江</item>
+      <item>乐东</item>
+      <item>陵水</item>
+      <item>保亭</item>
+      <item>琼中</item>
+   </string-array><string-array name="重庆">
+      <item>-城市-</item>
+      <item>万州</item>
+      <item>涪陵</item>
+      <item>渝中</item>
+      <item>大渡口</item>
+      <item>江北</item>
+      <item>沙坪坝</item>
+      <item>九龙坡</item>
+      <item>南岸</item>
+      <item>北碚</item>
+      <item>两江新区</item>
+      <item>万盛</item>
+      <item>双桥</item>
+      <item>渝北</item>
+      <item>巴南</item>
+      <item>长寿</item>
+      <item>綦江</item>
+      <item>潼南</item>
+      <item>铜梁</item>
+      <item>大足</item>
+      <item>荣昌</item>
+      <item>璧山</item>
+      <item>梁平</item>
+      <item>城口</item>
+      <item>丰都</item>
+      <item>垫江</item>
+      <item>武隆</item>
+      <item>忠县</item>
+      <item>开县</item>
+      <item>云阳</item>
+      <item>奉节</item>
+      <item>巫山</item>
+      <item>巫溪</item>
+      <item>黔江</item>
+      <item>石柱</item>
+      <item>秀山</item>
+      <item>酉阳</item>
+      <item>彭水</item>
+      <item>江津</item>
+      <item>合川</item>
+      <item>永川</item>
+      <item>南川</item>
+   </string-array><string-array name="def">
+      <item>-城市-</item>
+   </string-array><string-array name="北京">
+      <item>-城市-</item>
+      <item>东城</item>
+      <item>西城</item>
+      <item>朝阳</item>
+      <item>丰台</item>
+      <item>石景山</item>
+      <item>海淀</item>
+      <item>门头沟</item>
+      <item>房山</item>
+      <item>通州</item>
+      <item>顺义</item>
+      <item>昌平</item>
+      <item>大兴</item>
+      <item>平谷</item>
+      <item>怀柔</item>
+      <item>密云</item>
+      <item>延庆</item>
+   </string-array><string-array name="青海">
+      <item>-城市-</item>
+      <item>西宁</item>
+      <item>海东</item>
+      <item>海北</item>
+      <item>黄南</item>
+      <item>海南</item>
+      <item>果洛</item>
+      <item>玉树</item>
+      <item>海西</item>
+   </string-array><string-array name="上海">
+      <item>-城市-</item>
+      <item>黄浦</item>
+      <item>卢湾</item>
+      <item>徐汇</item>
+      <item>长宁</item>
+      <item>静安</item>
+      <item>普陀</item>
+      <item>闸北</item>
+      <item>虹口</item>
+      <item>杨浦</item>
+      <item>闵行</item>
+      <item>宝山</item>
+      <item>嘉定</item>
+      <item>浦东新区</item>
+      <item>金山</item>
+      <item>松江</item>
+      <item>奉贤</item>
+      <item>青浦</item>
+      <item>崇明</item>
+   </string-array><string-array name="辽宁">
+      <item>-城市-</item>
+      <item>沈阳</item>
+      <item>大连</item>
+      <item>鞍山</item>
+      <item>抚顺</item>
+      <item>本溪</item>
+      <item>丹东</item>
+      <item>锦州</item>
+      <item>营口</item>
+      <item>阜新</item>
+      <item>辽阳</item>
+      <item>盘锦</item>
+      <item>铁岭</item>
+      <item>朝阳</item>
+      <item>葫芦岛</item>
+   </string-array><string-array name="吉林">
+      <item>-城市-</item>
+      <item>长春</item>
+      <item>吉林</item>
+      <item>四平</item>
+      <item>辽源</item>
+      <item>通化</item>
+      <item>白山</item>
+      <item>松原</item>
+      <item>白城</item>
+      <item>延边</item>
+   </string-array><string-array name="宁夏">
+      <item>-城市-</item>
+      <item>银川</item>
+      <item>石嘴山</item>
+      <item>吴忠</item>
+      <item>固原</item>
+      <item>中卫</item>
+   </string-array><string-array name="山西">
+      <item>-城市-</item>
+      <item>太原</item>
+      <item>大同</item>
+      <item>阳泉</item>
+      <item>长治</item>
+      <item>晋城</item>
+      <item>朔州</item>
+      <item>晋中</item>
+      <item>运城</item>
+      <item>忻州</item>
+      <item>临汾</item>
+      <item>吕梁</item>
+   </string-array><string-array name="甘肃">
+      <item>-城市-</item>
+      <item>兰州市</item>
+      <item>嘉峪关</item>
+      <item>金昌</item>
+      <item>白银</item>
+      <item>天水</item>
+      <item>武威</item>
+      <item>张掖</item>
+      <item>平凉</item>
+      <item>酒泉</item>
+      <item>庆阳</item>
+      <item>定西</item>
+      <item>陇南</item>
+      <item>临夏</item>
+      <item>甘南</item>
+   </string-array><string-array name="浙江">
+      <item>-城市-</item>
+      <item>杭州</item>
+      <item>宁波</item>
+      <item>温州</item>
+      <item>嘉兴</item>
+      <item>湖州</item>
+      <item>绍兴</item>
+      <item>金华</item>
+      <item>衢州</item>
+      <item>舟山</item>
+      <item>台州</item>
+      <item>丽水</item>
+   </string-array><string-array name="四川">
+      <item>-城市-</item>
+      <item>成都</item>
+      <item>自贡</item>
+      <item>攀枝花</item>
+      <item>泸州</item>
+      <item>德阳</item>
+      <item>绵阳</item>
+      <item>广元</item>
+      <item>遂宁</item>
+      <item>内江</item>
+      <item>乐山</item>
+      <item>南充</item>
+      <item>眉山</item>
+      <item>宜宾</item>
+      <item>广安</item>
+      <item>达州</item>
+      <item>雅安</item>
+      <item>巴中</item>
+      <item>资阳</item>
+      <item>阿坝</item>
+      <item>甘孜</item>
+      <item>凉山</item>
+   </string-array><string-array name="云南">
+      <item>-城市-</item>
+      <item>昆明</item>
+      <item>曲靖</item>
+      <item>玉溪</item>
+      <item>保山</item>
+      <item>昭通</item>
+      <item>丽江</item>
+      <item>普洱</item>
+      <item>临沧</item>
+      <item>楚雄</item>
+      <item>红河</item>
+      <item>文山</item>
+      <item>西双版纳</item>
+      <item>大理</item>
+      <item>德宏</item>
+      <item>怒江</item>
+      <item>迪庆</item>
+   </string-array><string-array name="西藏">
+      <item>-城市-</item>
+      <item>拉萨</item>
+      <item>昌都</item>
+      <item>山南</item>
+      <item>日喀则</item>
+      <item>那曲</item>
+      <item>阿里</item>
+      <item>林芝</item>
+   </string-array><string-array name="黑龙江">
+      <item>-城市-</item>
+      <item>哈尔滨</item>
+      <item>齐齐哈尔</item>
+      <item>鸡西</item>
+      <item>鹤岗</item>
+      <item>双鸭山</item>
+      <item>大庆</item>
+      <item>伊春</item>
+      <item>佳木斯</item>
+      <item>七台河</item>
+      <item>牡丹江</item>
+      <item>黑河</item>
+      <item>绥化</item>
+      <item>大兴安岭</item>
+   </string-array><string-array name="天津">
+      <item>-城市-</item>
+      <item>和平</item>
+      <item>河东</item>
+      <item>河西</item>
+      <item>南开</item>
+      <item>河北</item>
+      <item>红桥</item>
+      <item>滨海新区</item>
+      <item>东丽</item>
+      <item>西青</item>
+      <item>津南</item>
+      <item>北辰</item>
+      <item>宁河</item>
+      <item>武清</item>
+      <item>静海</item>
+      <item>宝坻</item>
+      <item>蓟县</item>
+   </string-array><string-array name="广西">
+      <item>-城市-</item>
+      <item>南宁</item>
+      <item>柳州</item>
+      <item>桂林</item>
+      <item>梧州</item>
+      <item>北海</item>
+      <item>防城港</item>
+      <item>钦州</item>
+      <item>贵港</item>
+      <item>玉林</item>
+      <item>百色</item>
+      <item>贺州</item>
+      <item>河池</item>
+      <item>来宾</item>
+      <item>崇左</item>
+   </string-array><string-array name="香港">
+      <item>-城市-</item>
+      <item>中西区</item>
+      <item>东区</item>
+      <item>九龙城区</item>
+      <item>观塘区</item>
+      <item>南区</item>
+      <item>深水埗区</item>
+      <item>黄大仙区</item>
+      <item>湾仔区</item>
+      <item>油尖旺区</item>
+      <item>离岛区</item>
+      <item>葵青区</item>
+      <item>北区</item>
+      <item>西贡区</item>
+      <item>沙田区</item>
+      <item>屯门区</item>
+      <item>大埔区</item>
+      <item>荃湾区</item>
+      <item>元朗区</item>
+   </string-array><string-array name="安徽">
+      <item>-城市-</item>
+      <item>合肥</item>
+      <item>芜湖</item>
+      <item>蚌埠</item>
+      <item>淮南</item>
+      <item>马鞍山</item>
+      <item>淮北</item>
+      <item>铜陵</item>
+      <item>安庆</item>
+      <item>黄山</item>
+      <item>滁州</item>
+      <item>阜阳</item>
+      <item>宿州</item>
+      <item>六安</item>
+      <item>亳州</item>
+      <item>池州</item>
+      <item>宣城</item>
+   </string-array><string-array name="新疆">
+      <item>-城市-</item>
+      <item>乌鲁木齐</item>
+      <item>克拉玛依</item>
+      <item>吐鲁番</item>
+      <item>哈密</item>
+      <item>昌吉</item>
+      <item>博尔塔拉</item>
+      <item>巴音郭楞</item>
+      <item>阿克苏</item>
+      <item>克孜勒苏</item>
+      <item>喀什</item>
+      <item>和田</item>
+      <item>伊犁</item>
+      <item>塔城</item>
+      <item>阿勒泰</item>
+      <item>石河子</item>
+      <item>阿拉尔</item>
+      <item>图木舒克</item>
+      <item>五家渠</item>
+      <item>北屯</item>
+   </string-array><string-array name="province">
+      <item>-省份-</item>
+      <item>北京</item>
+      <item>天津</item>
+      <item>河北</item>
+      <item>山西</item>
+      <item>内蒙古</item>
+      <item>辽宁</item>
+      <item>吉林</item>
+      <item>黑龙江</item>
+      <item>上海</item>
+      <item>江苏</item>
+      <item>浙江</item>
+      <item>安徽</item>
+      <item>福建</item>
+      <item>江西</item>
+      <item>山东</item>
+      <item>河南</item>
+      <item>湖北</item>
+      <item>湖南</item>
+      <item>广东</item>
+      <item>广西</item>
+      <item>海南</item>
+      <item>重庆</item>
+      <item>四川</item>
+      <item>贵州</item>
+      <item>云南</item>
+      <item>西藏</item>
+      <item>陕西</item>
+      <item>甘肃</item>
+      <item>青海</item>
+      <item>宁夏</item>
+      <item>新疆</item>
+      <item>台湾</item>
+      <item>香港</item>
+      <item>澳门</item>
+   </string-array><string-array name="澳门">
+      <item>-城市-</item>
+      <item>花地玛堂区</item>
+      <item>圣安多尼堂区</item>
+      <item>大堂区</item>
+      <item>望德堂区</item>
+      <item>风顺堂区</item>
+      <item>氹仔</item>
+      <item>路环</item>
+   </string-array><string-array name="内蒙古">
+      <item>-城市-</item>
+      <item>呼和浩特</item>
+      <item>包头</item>
+      <item>乌海</item>
+      <item>赤峰</item>
+      <item>通辽</item>
+      <item>鄂尔多斯</item>
+      <item>呼伦贝尔</item>
+      <item>巴彦淖尔</item>
+      <item>乌兰察布</item>
+      <item>兴安</item>
+      <item>锡林郭勒</item>
+      <item>阿拉善</item>
+   </string-array><string-array name="江苏">
+      <item>-城市-</item>
+      <item>南京</item>
+      <item>无锡</item>
+      <item>徐州</item>
+      <item>常州</item>
+      <item>苏州</item>
+      <item>南通</item>
+      <item>连云港</item>
+      <item>淮安</item>
+      <item>盐城</item>
+      <item>扬州</item>
+      <item>镇江</item>
+      <item>泰州</item>
+      <item>宿迁</item>
+   </string-array><string-array name="山东">
+      <item>-城市-</item>
+      <item>济南</item>
+      <item>青岛</item>
+      <item>淄博</item>
+      <item>枣庄</item>
+      <item>东营</item>
+      <item>烟台</item>
+      <item>潍坊</item>
+      <item>济宁</item>
+      <item>泰安</item>
+      <item>威海</item>
+      <item>日照</item>
+      <item>莱芜</item>
+      <item>临沂</item>
+      <item>德州</item>
+      <item>聊城</item>
+      <item>滨州</item>
+      <item>菏泽</item>
+   </string-array><string-array name="台湾">
+      <item>-城市-</item>
+      <item>台北市</item>
+      <item>高雄市</item>
+      <item>基隆市</item>
+      <item>台中市</item>
+      <item>台南市</item>
+      <item>新竹市</item>
+      <item>嘉义市</item>
+      <item>台北县</item>
+      <item>宜兰县</item>
+      <item>桃园县</item>
+      <item>新竹县</item>
+      <item>苗栗县</item>
+      <item>台中县</item>
+      <item>彰化县</item>
+      <item>南投县</item>
+      <item>云林县</item>
+      <item>嘉义县</item>
+      <item>台南县</item>
+      <item>高雄县</item>
+      <item>屏东县</item>
+      <item>台东县</item>
+      <item>花莲县</item>
+      <item>澎湖县</item>
+   </string-array><string-array name="福建">
+      <item>-城市-</item>
+      <item>福州</item>
+      <item>厦门</item>
+      <item>莆田</item>
+      <item>三明</item>
+      <item>泉州</item>
+      <item>漳州</item>
+      <item>南平</item>
+      <item>龙岩</item>
+      <item>宁德</item>
+   </string-array><string-array name="贵州">
+      <item>-城市-</item>
+      <item>贵阳</item>
+      <item>六盘水</item>
+      <item>遵义</item>
+      <item>安顺</item>
+      <item>铜仁</item>
+      <item>黔西南</item>
+      <item>毕节</item>
+      <item>黔东南</item>
+      <item>黔南</item>
+   </string-array></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\color.xml" qualifiers=""><color name="keyboard_press_color">#f54d4f</color><color name="button_text_color">#51cad8</color><color name="result_view">#b0000000</color><color name="app_button_color">#f54d4f</color><color name="fragment_img">#F49514</color><color name="common_text_color">#00d389</color><color name="keyboard_unpress_color">#ffffff</color><color name="enable_button_text_color">#000000</color><color name="vifrification">#83000000</color><color name="text_color_enable">#8c8c8c</color><color name="fragment_text">#C0C0C0</color><color name="possible_result_points">#c0ffff00</color><color name="app_title_text_color">#fbb3b4</color><color name="viewfinder_mask">#60000000</color><color name="app_red_text_color">#f54d4f</color><color name="province_line_border">#C7C7C7</color><color name="red">#ff0000</color><color name="app_gray_backgroud_color">#f1f1f1</color><color name="keyboard_press_color_nor">#8e8e8e</color><color name="half">#F2F2F2</color><color name="app_header_color">#f54d4f</color><color name="default_ui_bg">#ffffff</color><color name="app_blue_text_color">#51cad8</color><color name="app_black_text_color">#000000</color><color name="divider_color">#d2d2d2</color><color name="text_color_disable">#c0c0c0</color><color name="app_gray_text_color">#959595</color></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="padding_bottom">7dp</dimen><dimen name="marginLeft_xlarge">80sp</dimen><dimen name="marginBottom_button">50sp</dimen><dimen name="marginLeft_middle">15sp</dimen><dimen name="text_size_lmicro">10sp</dimen><dimen name="font_size_small">14sp</dimen><dimen name="marginRight_middle">15sp</dimen><dimen name="margin">10sp</dimen><dimen name="marginLeft_large">35sp</dimen><dimen name="marginRight_xlarge">80sp</dimen><dimen name="leftimgspace">10sp</dimen><dimen name="marginBottom_small">5sp</dimen><dimen name="text_size_micro">8sp</dimen><dimen name="font_size_xxlarge">40sp</dimen><dimen name="marginRight_small">5sp</dimen><dimen name="lefteditspace">20sp</dimen><dimen name="marginBottom_middle">15sp</dimen><dimen name="marginTop_large">35sp</dimen><dimen name="font_size_xlarge">26sp</dimen><dimen name="popup_item_height">50sp</dimen><dimen name="amtviewheight">150sp</dimen><dimen name="font_title">20sp</dimen><dimen name="list_item_height">50sp</dimen><dimen name="padding_top">7dp</dimen><dimen name="headheight">50sp</dimen><dimen name="font_size_xxxlarge">50sp</dimen><dimen name="dimensionwidth">100sp</dimen><dimen name="keyboardheight">234sp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="bbuton_rounded_corner_radius">5dp</dimen><dimen name="textviewwidth">80sp</dimen><dimen name="marginTop_small">5sp</dimen><dimen name="marginLeft_small">5sp</dimen><dimen name="marginTop_xlarge">80sp</dimen><dimen name="button_height">50sp</dimen><dimen name="marginRight_large">35sp</dimen><dimen name="marginTop_middle">15sp</dimen><dimen name="font_size_medium">18sp</dimen><dimen name="dimensionparentwidth">300sp</dimen><dimen name="font_size_cash">40sp</dimen><dimen name="marginBottom_xlarge">80sp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="nodewidth">30sp</dimen><dimen name="keyboardnumberheight">20sp</dimen><dimen name="leftspace">5sp</dimen><dimen name="marginBottom_large">35sp</dimen><dimen name="font_size_large">22sp</dimen></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\ids.xml" qualifiers=""><item name="return_scan_result" type="id"/><item name="split" type="id">false</item><item name="launch_product_query" type="id"/><item name="webview" type="id"/><item name="decode_succeeded" type="id"/><item name="decode" type="id"/><item name="gridview" type="id"/><item name="decode_failed" type="id"/><item name="about_version_code" type="id">false</item><item name="encode_succeeded" type="id"/><item name="encode_failed" type="id"/><item name="restart_preview" type="id"/><item name="search_book_contents_failed" type="id"/><item name="quit" type="id"/><item name="search_book_contents_succeeded" type="id"/><item name="auto_focus" type="id"/></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\ssdk_coutry_arrays.xml" qualifiers=""><string-array name="smssdk_country_group_n">
+		<item>纳米比亚,264,96,64902|64901|64903</item>
+		<item>南非,27,6,65510|65512|65501|65502|65507|65519</item>
+		<item>南苏丹,211,50,65995</item>
+		<item>尼泊尔,977,190,42901|42902</item>
+		<item>尼加拉瓜,505,138,71021|71030</item>
+		<item>尼日尔,227,62,61401|61402|61403|61404</item>
+		<item>尼日利亚,234,69,62150|62140|62130|62120|62125|23455-NG|62160</item>
+		<item>挪威,47,21,24208|24209|24220|24221|24222|24201|24223|24202|24224|24204|24205|24206</item>
+    </string-array><string-array name="smssdk_country_group_m">
+		<item>马达加斯加,261,93,64601|64602|64604</item>
+		<item>马尔代夫,960,174,47201|47202</item>
+		<item>马耳他,356,111,27821|27877|27801</item>
+		<item>马拉维,265,97,65010|65001</item>
+		<item>马来西亚,60,32,50220|50211|50213|502150|50212|502151|502152|50217|50216|50219|50218</item>
+		<item>马里,223,58,61002|61001</item>
+		<item>马其顿,389,130,29402|29401|29403</item>
+		<item>马提尼克,596,149,34003|34002|34001|34020</item>
+		<item>毛里求斯,230,65,61710|61701|61702</item>
+		<item>毛里塔尼亚,222,57,60910|60902</item>
+		<item>美国,1,2,311090|310080|311050|311370|310160|31150|311010|310680|310120|310560|311650|310880|310760|31190|310320|310630|310710|310090|310290|316993|310170|310050|31060|311580|310690|311020|311340|310570|311660|310450|310011|310770|316995|310012|316994|311730|310004|311610|310840|310005|310600|31100|311190|310180|31050|310060|316883|311150|310380|311030|310260|311230|310020|310340|311991|311430|316885|310660|310100|316884|310540|310023|310980|311740|310410|31016|310610|310016|31130|31011|31611|310190|311040|316011|310150|310790|310990|310870|310420|310300|310740|311710</item>
+		<item>蒙古,976,189,42898|42888|42899|42801</item>
+		<item>蒙特塞拉特岛,1664,207,354860</item>
+		<item>孟加拉国,880,172,47007|47005|47006|47003|47004|47001|47002</item>
+		<item>秘鲁,51,24,71610|71606|71617|71607|71615</item>
+		<item>密克罗尼西亚,691,166,55001</item>
+		<item>缅甸,95,48,41401|41406|41405</item>
+		<item>摩尔多瓦,373,118,25903|25902|25904|25901</item>
+		<item>摩洛哥,212,51,60405|60402|60401|60400</item>
+		<item>摩纳哥,377,122,21201</item>
+		<item>莫桑比克,258,91,64301|64304|64303</item>
+		<item>墨西哥,52,25,33402|33403|33401|33450|33406|334090|33404|33405</item>
+    </string-array><string-array name="smssdk_country_group_p">
+		<item>帕劳,680,160,55201|55280</item>
+		<item>葡萄牙,351,106,26804|26806|26801|26803</item>
+    </string-array><string-array name="smssdk_country_group_o">
+	    
+	</string-array><string-array name="smssdk_country_group_j">
+		<item>基里巴斯,686,163,54509</item>
+		<item>吉布提,253,86,63801</item>
+		<item>吉尔吉斯斯坦,996,195,43705|43701</item>
+		<item>几内亚,224,59,61105|61104|61103|61102|61101</item>
+		<item>几内亚比绍,245,80,63202|63203</item>
+		<item>加拿大,1,1,302657|302656|302710|302655|302500|302610|302720|302702|302270|302490|302880|302220|302680|302360|302690|302510|302653|302861|302222|302640|302651|302530|302221|302320</item>
+		<item>加纳,233,68,62001|62002|62003|62004|62006|62007</item>
+		<item>加蓬,241,76,62804|62801|62802|62803</item>
+		<item>柬埔寨,855,170,45602|45601|45608|45618|45609|45604|45603|45606|45605|23455-KH</item>
+		<item>捷克共和国,420,131,23001|23002|23003|23004|23005|23008</item>
+		<item>津巴布韦,263,95,64801|64803|64804</item>
+    </string-array><string-array name="smssdk_country_group_i">
+	    
+	</string-array><string-array name="smssdk_country_group_l">
+		<item>拉脱维亚,371,116,24703|24706|24705|24708|24707|24709|24702|24701</item>
+		<item>莱索托,266,98,65101|65102</item>
+		<item>老挝,856,171,45701|45708|45703|45702</item>
+		<item>黎巴嫩,961,175,41503|41501</item>
+		<item>立陶宛,370,115,24601|24603|24602</item>
+		<item>利比里亚,231,66,61804|61807|61801|61802</item>
+		<item>利比亚,218,54,60603|60601|60600</item>
+		<item>列支敦士登,423,133,29501|29577|29505|29502</item>
+		<item>法属留尼汪岛,262,94,64710|64702</item>
+		<item>卢森堡,352,107,27099|27077|27001</item>
+		<item>卢旺达,250,83,63510|63512|63513|63514</item>
+		<item>罗马尼亚,40,14,22603|22604|22605|22610|22601</item>
+    </string-array><string-array name="smssdk_country_group_k">
+		<item>喀麦隆,237,72,62401|62402|62404</item>
+		<item>卡塔尔,974,187,42701|42702</item>
+		<item>开曼群岛,1345,203,346140</item>
+		<item>科摩罗,269,101,65401</item>
+		<item>科特迪瓦,225,60,61205|61204|61203|61202</item>
+		<item>科威特,965,179,41904|41903|41902</item>
+		<item>克罗地亚,385,127,21902|21901|21912|21910</item>
+		<item>肯尼亚,254,87,63905|63907|63903|63902</item>
+		<item>库克群岛,682,161,54801</item>
+    </string-array><string-array name="smssdk_country_group_f">
+		<item>法国,33,10,20816|20804|20826|20815|20825|20813|20802|20823|20801|20811|20822|20888|20810|20821|20831|20820|20809|20808|20817</item>
+		<item>法罗群岛,298,103,28801|28802|28803</item>
+		<item>菲律宾,63,35,51518|51502|51501|51503|51505</item>
+		<item>斐济,679,159,54202|54201</item>
+		<item>芬兰,358,113,24409|24432|24410|24421|24412|24411|24414|24403|24413|24405|24426|24404|24491</item>
+		<item>佛得角,238,73,62501|62502</item>
+    </string-array><string-array name="smssdk_country_group_e">
+		<item>俄罗斯,7,3,25020|25099|25035|25002|25012|25001|25003|25039|25005|25007</item>
+		<item>厄瓜多尔,593,146,74002|74001|74000</item>
+    </string-array><string-array name="smssdk_country_group_h">
+		<item>哈萨克斯坦,7,4,40102|40101|40177|40108|40107</item>
+		<item>海地,509,142,37201|37202</item>
+		<item>韩国,82,40,45006|45005|45008|45002|45004</item>
+		<item>荷兰,31,8,20423|20412|20410|20465|20420|20462|20409|20408|20407|20418|20406|20417|20428|20416|20405|20415|20404|20414|20469|20403|20468|20424|20402</item>
+		<item>荷属安的列斯群岛,599,152,36269|36202|36201|36251|36294|36282|36281</item>
+		<item>黑山共和国,382,126,29703|29702|29701</item>
+		<item>洪都拉斯,504,137,70830|70840|70802|70801</item>
+    </string-array><string-array name="smssdk_country_group_g">
+		<item>冈比亚,220,55,60702|60701|60704|60703</item>
+		<item>刚果共和国,242,77,62907|62910|62901</item>
+		<item>刚果民主共和国,243,78,63086|63001|63089|63002|63005</item>
+		<item>哥伦比亚,57,30,732130|732020|732154|732111|732123|732101</item>
+		<item>哥斯达黎加,506,139,71204|71203|71201</item>
+		<item>格林纳达,1473,205,352110</item>
+		<item>格陵兰岛,299,104,29001</item>
+		<item>格鲁吉亚,995,194,28202|28201|28204|28205</item>
+		<item>古巴,53,26,36801</item>
+		<item>瓜德罗普岛,590,143,34008|34003|34002|34001|34020</item>
+		<item>关岛,1671,208,310400|310140|310470|310110</item>
+		<item>圭亚那,592,145,73802|73801</item>
+		<item>圭亚那（法属）,594,147,74201|74220</item>
+    </string-array><string-array name="smssdk_country_group_b">
+		<item>巴巴多斯,1246,198,342600</item>
+		<item>巴布亚新几内亚,675,155,53701|53702|53703</item>
+		<item>巴哈马群岛,1242,197,364390|36439</item>
+		<item>巴基斯坦,92,45,</item>
+		<item>巴拉圭,595,148,74404|74403|74402|74401</item>
+		<item>巴勒斯坦领土,970,183,42506-PS|42505-PS</item>
+		<item>巴林,973,186,42604|42605|42601|42602</item>
+		<item>巴拿马,507,140,71404|71402|71403|71401</item>
+		<item>巴西,55,28,72416|72405|72439|72406|72403|72415|72437|72404|72434|72423|72402|72432|72410|72433|72400|72411|72430|72431|72407</item>
+		<item>白俄罗斯,375,120,25704|25701|25702</item>
+		<item>百慕大群岛,1441,204,350000</item>
+		<item>保加利亚,359,114,28401|28405|28403</item>
+		<item>贝宁,229,64,61605|61601|61602|61603|61604</item>
+		<item>比利时,32,9,20610|20620|20640|20606|20605|20601</item>
+		<item>冰岛,354,109,27409|27411|27404|27401|27402|27407</item>
+		<item>波多黎各,1787,212,310970</item>
+		<item>波兰,48,22,26016|26038|26004|26018|26017|26006|26009|26019|26008|26010|26032|26001|26034|26012|26011|26003|26036|26014|26002|26013|26035</item>
+		<item>波利尼西亚（法属）,689,165,54720</item>
+		<item>波斯尼亚和黑塞哥维那,387,129,21890|21805|21803</item>
+		<item>玻利维亚,591,144,73603|73602|73601</item>
+		<item>伯利兹,501,134,70267</item>
+		<item>博茨瓦纳,267,99,65202|65201|65204</item>
+		<item>不丹,975,188,40211|40277</item>
+		<item>布基纳法索,226,61,61301|61302|61303</item>
+		<item>布隆迪,257,90,64201|64203|64202|64207|64282</item>
+    </string-array><string-array name="smssdk_country_group_a">
+		<item>阿尔巴尼亚,355,110,27601|27602|27603|27604</item>
+		<item>阿尔及利亚,213,52,60303|60302|60301</item>
+		<item>阿富汗,93,46,41220|41230|41240|41250|41201</item>
+		<item>阿根廷,54,27,722070|72207|72236|722020|72201|72234|72202|722320|722310|722010|722340|722330|722341</item>
+		<item>阿拉伯联合酋长国,971,184,42402|42403</item>
+		<item>阿鲁巴岛,297,102,36301|36302</item>
+		<item>阿曼,968,182,42202|42203</item>
+		<item>阿塞拜疆,994,193,40002|40001|40004</item>
+		<item>埃及,20,5,60203|60202|60201</item>
+		<item>埃塞俄比亚,251,84,63601</item>
+		<item>爱尔兰,353,108,27201|27213|27202|27211|27205|27203|27209</item>
+		<item>爱沙尼亚,372,117,24803|24802|24801</item>
+		<item>安道尔,376,121,21303</item>
+		<item>安哥拉,244,79,63102|63104</item>
+		<item>安圭拉岛,1264,199,365840</item>
+		<item>安提瓜和巴布达,1268,200,338050|344030|344920</item>
+		<item>奥地利,43,16,23207|23209|23210|23211|23201|23212|23202|23214|23203|23204|23215|23205|23206</item>
+		<item>澳大利亚,61,33,50507|50506|50519|50590|50572|50571|50530|50501|50512|50511|50503|50502|505060|50538|50516|505061|50526</item>
+		<item>澳门,853,169,45501|45500|45503|45502|45505|45504</item>
+    </string-array><string-array name="smssdk_country_group_d">
+		<item>丹麦,45,19,23801|23812|23802|23813|23803|23806|23828|23807|23808|23830|23820|23810|23866|23877</item>
+		<item>德国,49,23,26203|26202|26205|26216|26204|26207|26217|26206|26209|26208|26243|26276|26220|26242|26212|26201|26211|26277</item>
+		<item>东帝汶,670,153,51401|51402</item>
+		<item>多哥,228,63,61501|61503</item>
+		<item>多米尼加共和国,1809,213,37001|37002|37003|37004</item>
+		<item>多米尼克,1767,210,366110</item>
+    </string-array><string-array name="smssdk_country_group_c">
+		<item>朝鲜,850,167,46703</item>
+		<item>赤道几内亚,240,75,62701|62703</item>
+    </string-array><string-array name="smssdk_country_group_z">
+		<item>赞比亚,260,92,64502|64501|64503</item>
+		<item>泽西,44,18,</item>
+		<item>乍得,235,70,62201|62203</item>
+		<item>直布罗陀,350,105,26606|26609|26601</item>
+		<item>智利,56,29,73008|73006|73004|73002|73013|73003|73014|73011|73012|73001</item>
+		<item>中非共和国,236,71,62301|62302|62303|62304</item>
+		<item>中国,86,42,46006|46007|46005|46002|46003|46000|46001</item>
+    </string-array><string-array name="smssdk_country_group_y">
+		<item>牙买加,1876,216,338180|338020|338110</item>
+		<item>亚美尼亚,374,119,28301|28310|28305|28304</item>
+		<item>也门,967,181,42101|42102|42103</item>
+		<item>伊拉克,964,178,41805|41840|41820|41830|41845</item>
+		<item>伊朗,98,49,43235|43214|43220|43200|43211|43219</item>
+		<item>以色列,972,185,42577|42516|42505|42506|42507|RESTRICTED-IL|42519|42508|42501|42512|42523|42502|42503|42514|42515</item>
+		<item>意大利,39,13,22206|22207|22208|22210|22243|22288|22244|22299|22233|22201|22235|22204|22248|22205|22230</item>
+		<item>印度,91,44,405893|405892|405895|405894|405897|405896|405899|405898|40501|40506|40505|405891|405890|40503|405889|405882|405881|405883|405886|405885|405888|405887|405880|405879|405878|405871|405750|405870|405873|405752|405872|405751|405875|405754|405874|405753|405877|405756|405876|405755|405868|405867|405869|405860|405862|405861|405864|405863|405866|405865|405856|405859|405858|40494|40493|40492|40491|40498|40497|40496|40495|40490|40483|40482|40481|40480|40487|40486|40485|405799|40484|40489|40488|40472|40471|40470|40476|40475|40474|40473|40479|40478|40477|40460|405930|405811|40462|405810|405931|40469|40468|40467|40466|405809|405802|405923|405801|405922|405804|405925|405803|405924|405806|405927|405805|405926|405808|405929|405807|405928|40450|40570|40454|40453|40452|405800|405921|40451|405920|40458|40457|40456|40455|40459|405919|405912|405914|405913|405916|405915|405918|405917|40443|40442|40441|40567|40446|40566|40449|405901|405900|405903|405902|405905|405904|405907|405906|40553|40552|40431|40551|40430|40436|40556|40435|40555|40434|40554|40433|40438|40437|405851|405850|40421|405853|40420|405852|405855|405854|40425|40424|40422|40429|40428|40427|40419|405846|405845|405848|405847|405849|405046|405045|405840|405047|40410|405842|405841|405843|40413|40412|405040|40411|40418|405042|40417|405041|40416|405044|40415|405043|40409|405835|405834|405837|405836|405839|405838|405035|405034|405037|405036|40520|405039|405831|405038|405830|405833|405832|40524|40403|40402|40523|40522|40401|40521|40400|40407|405031|40406|405030|40405|405033|40404|405032|40519|40518|405824|405823|405825|405828|405827|405829|405026|405025|405820|405027|405822|405029|405821|40513|40512|40511|40510|40517|40515|40514|40509|40508|40507|405813|405812|405815|405814|405817|405816|405819|405818</item>
+		<item>印度尼西亚,62,34,51010|51021|51089|51001|51011|51027|51007|51028|51009|51008</item>
+		<item>英国,44,17,23427|23428|23407|23409|23420|23400|23401|23423|23500|23424|23402|23403|23425|23426|23416|23417|23418|23419|23430|23431|23476|23410|23433|23455|23411|23478|23434|23458|23414|23415|23450|23451</item>
+		<item>约旦,962,176,41601|41677|41603</item>
+		<item>越南,84,41,45204|45205|45202|45201|45207</item>
+    </string-array><string-array name="smssdk_country_group_v">
+	    
+	</string-array><string-array name="smssdk_country_group_u">
+	    
+	</string-array><string-array name="smssdk_country_group_x">
+		<item>西班牙,34,11,21402|21401|21423|21411|21422|21410|21421|21432|21420|21409|21408|21419|21407|21418|21417|21406|21405|21427|21416|21404|21415|21425|21403</item>
+		<item>希腊,30,7,20203|20202|20201|20210|20209|20207|20205</item>
+		<item>香港,852,168,45413|45412|45401|45404|45403|45414|45400|45411|45409|45406|45405|45416|45408|45419|45429|45407</item>
+		<item>新加坡,65,37,52502|52503|52512|52501|52505</item>
+		<item>新喀里多尼亚,687,164,54601</item>
+		<item>新西兰,64,36,53001|53004|53005|53024|53002|53006</item>
+		<item>匈牙利,36,12,21630|21670|21601</item>
+		<item>叙利亚,963,177,41701|41702</item>
+    </string-array><string-array name="smssdk_country_group_w">
+		<item>瓦努阿图,678,158,54101|54105</item>
+		<item>危地马拉,502,135,70402|70401|70403</item>
+		<item>维尔京群岛（美属）,1284,201,311470</item>
+		<item>维尔京群岛（英属）,1340,202,348570|348170</item>
+		<item>委内瑞拉,58,31,73406|73404|73401</item>
+		<item>文莱,673,154,52811|52802</item>
+		<item>乌干达,256,89,64111|64133|64166|64122|64110|64101|64114</item>
+		<item>乌克兰,380,124,25507|25506|25521|25501|25503|25502|25505|25504</item>
+		<item>乌拉圭,598,151,74803|74802|74801|74800|74810|74807</item>
+		<item>乌兹别克斯坦,998,196,43401|43402|43407|43403|43404|43405|43406</item>
+    </string-array><string-array name="smssdk_country_group_r">
+		<item>日本,81,39,44027|44026|44029|44028|44023|44144|44022|44143|44025|44024|44145|44140|44021|44142|44141|44020|44016|44015|44018|44017|44012|44011|44099|44014|44013|44019|44090|44096|44095|44010|44098|44097|44092|44091|44094|44093|44004|44007|44006|44001|44089|44000|44088|44003|44002|44009|44008|44087|44199|44078|44198|44077|44079|44074|44194|44073|44076|44075|44191|44070|44190|44193|44072|44192|44071|44067|44066|44069|44068|44063|44062|44065|44064|44061|44060|44056|44055|44058|44052|44051|44054|44053|44050|44170|44049|44048|44045|44044|44165|44047|44046|44041|44162|44040|44161|44043|44164|44042|44163|44038|44037|44039|44034|44033|44036|44035|44030|44032|44031</item>
+		<item>瑞典,46,20,24035|24013|24036|24014|24037|24015|24038|24016|24039|24017|24018|24019|24030|24031|24010|24032|24033|24012|24034|24002|24003|24026|24027|24028|24006|24029|24007|24008|24040|24020|24043|24022|24000|24044|24023|24001|24045</item>
+		<item>瑞士,41,15,22812|22801|22802|22803|22805|22809|22851|22853|22854</item>
+    </string-array><string-array name="smssdk_country_group_q">
+	</string-array><string-array name="smssdk_country_group_t">
+		<item>塔吉克斯坦,992,191,43605|43601|43602|43603|43604</item>
+		<item>台湾,886,173,46602|46668|46603|46688|46699|46601|46689|46656|46697|46610|46609|46606|46607|46605|46693|46692</item>
+		<item>泰国,66,38,52000|52099|52020|52003|52004|52015|52001|52023|52002|52018|52005</item>
+		<item>坦桑尼亚,255,88,64011|64003|64002|64005|64004|64007|64006|64009|64008</item>
+		<item>汤加,676,156,53901</item>
+		<item>特克斯和凯科斯群岛,1649,206,376352|376350</item>
+		<item>特立尼达，多巴哥,1868,214,374130|37412</item>
+		<item>突尼斯,216,53,60503|60502|60501</item>
+		<item>土耳其,90,43,28602|28603|28601|28604</item>
+		<item>土库曼斯坦,993,192,43801|43802</item>
+    </string-array><string-array name="smssdk_country_group_s">
+		<item>萨尔瓦多,503,136,70602|70601|70604|70603|70605</item>
+		<item>萨摩亚,685,162,54900</item>
+		<item>塞尔维亚,381,125,29341|22001|22003|22005</item>
+		<item>塞拉利昂,232,67,61902|61903|61904|61905|61906|61909|61901</item>
+		<item>塞内加尔,221,56,60801|60803|60802</item>
+		<item>塞浦路斯,357,112,28022|28001|28020|28010</item>
+		<item>塞舌尔,248,81,63310|63301|63302</item>
+		<item>沙特阿拉伯,966,180,42003|42004|42001|42006</item>
+		<item>圣多美和普林西比,239,74,62601</item>
+		<item>圣基茨和尼维斯,1869,215,356110|356070</item>
+		<item>圣卢西亚,1758,209,358110</item>
+		<item>圣马力诺,378,123,29201</item>
+		<item>圣皮埃尔和密克隆岛,508,141,30801</item>
+		<item>圣文森特和格林纳丁斯,1784,211,360110</item>
+		<item>斯里兰卡,94,47,41301|41305|41302|41308</item>
+		<item>斯洛伐克,421,132,23199|23101|23102|23106</item>
+		<item>斯洛文尼亚,386,128,29364|29341|29340|29370</item>
+		<item>斯威士兰,268,100,65310|65301</item>
+		<item>苏丹,249,82,63401|63402|63407</item>
+		<item>苏里南,597,150,74604|74603|74602</item>
+		<item>所罗门群岛,677,157,54010</item>
+		<item>索马里,252,85,63782|63760|63730|63701|63725|63704</item>
+    </string-array></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\ssdk_instapaper_strings.xml" qualifiers=""><string formatted="false" name="ssdk_instapager_login_html">
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">
+&lt;meta content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" id=\"viewport\" name=\"viewport\">
+&lt;meta content=\"yes\" name=\"apple-mobile-web-app-capable\">
+&lt;title>%s&lt;/title>
+&lt;style type=\"text/css\">
+body{margin:0;padding:0}
+.inputstyle {
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    width:100%%;
+    height:44px;
+    color:#000;
+    background:0;
+    border:0;
+    font-size:16px;
+    outline: none;
+    -webkit-appearance:none
+}
+
+.btn {
+    width:90%%;
+    height:44px;
+    line-height:44px;
+    background:#A0C035;
+    border:0;
+    border-radius:4px;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    margin-top:15px;
+    display:block
+}
+.btn:disabled {
+    background: #dddddd;
+}
+.error {
+    color:red;
+}
+&lt;/style>
+&lt;/head>
+
+&lt;body>
+&lt;script type=\"text/javascript\">
+function login(form){
+    var u=form[\"u\"].value,p=form[\"p\"].value;
+    if(!u || !p)
+        return false;
+    form[\"s\"].disabled = true;
+    return true;
+}
+&lt;/script>
+&lt;form style=\"margin-top:45px;\" action=\"%s\" metho=\"get\" onsubmit=\"return login(this);\">
+%s
+&lt;div style=\"padding-left:15px;border-top:1px solid #E3E3E5;border-bottom:1px solid #E3E3E5;\">
+ &lt;input type=\"hidden\" name=\"ID_SIGN\" value=\"OWELJSFPWECSFEW\"/>
+ &lt;input class=\"inputstyle\" id=\"u\" name=\"u\" type=\"text\" value=\"%s\" placeholder=\"%s\" style=\"border-bottom:1px solid #E3E3E5;\"/>
+ &lt;input class=\"inputstyle\" id=\"p\" name=\"p\" type=\"password\" placeholder=\"%s\"/>
+&lt;/div>
+&lt;p>&lt;input style=\"margin:0 auto;\" type=\"submit\" name=\"s\" value=\"  %s  \" class=\"btn\"/>&lt;/p>
+&lt;/form>
+&lt;/body>
+&lt;/html>
+</string></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\ssdk_oks_color_drawables.xml" qualifiers=""><drawable name="ssdk_oks_classic_platfrom_cell_back_sel">#ffeeeeee</drawable><drawable name="ssdk_oks_classic_platfrom_cell_back_nor">#ffffffff</drawable></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\ssdk_oks_strings.xml" qualifiers=""><string name="ssdk_oks_sharing">分享操作正在后台进行…</string><string name="ssdk_oks_share_canceled">分享已取消</string><string name="ssdk_oks_share_completed">分享成功</string><string name="ssdk_oks_confirm">确定</string><string name="ssdk_oks_contacts">联系人</string><string name="ssdk_oks_share">分享內容</string><string name="ssdk_oks_pull_to_refresh">下拉刷新</string><string name="ssdk_oks_share_failed">分享失败</string><string name="ssdk_oks_multi_share">图文分享</string><string name="ssdk_oks_release_to_refresh">松开刷新</string><string name="ssdk_oks_refreshing">刷新中…</string><string name="ssdk_oks_cancel">取消</string></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\ssdk_strings.xml" qualifiers=""><string name="ssdk_pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string><string name="ssdk_sms_btn_submit">提交</string><string name="ssdk_sina_web_login_title">登陆-新浪微博</string><item name="ssdk_sms_id_llSearch" type="id"/><string name="ssdk_qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string><string name="ssdk_vkontakte">VK</string><string name="ssdk_sms_btn_sende_voice">发送语音验证</string><string name="ssdk_sms_dialog_btn_wait">等待</string><string name="ssdk_sms_input_voice_code"><Data>短信验证码收不到？请尝试&lt;font color=#2ba245>语音验证码&lt;/font></Data></string><string name="ssdk_yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string><string name="ssdk_facebookmessenger">Facebook Messenger</string><string name="ssdk_renren">人人网</string><string name="ssdk_sms_dialog_system_error">系统有点小问题，请稍后重试</string><string name="ssdk_kakaotalk">KakaoTalk</string><string name="ssdk_instapaper_login">登录</string><string name="ssdk_twitter">Twitter</string><item name="ssdk_sina_web_title_id" type="id"/><string name="ssdk_instagram">Instagram</string><string name="ssdk_wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string><string name="ssdk_sms_dialog_confirm_des">我们将发送验证码短信到这个手机号：\n</string><string name="ssdk_sms_dialog_confirm_title">确认手机号码</string><string name="ssdk_sms_dialog_error_desc_105">验证码错误</string><string name="ssdk_sms_dialog_error_desc_106">请求发送验证码失败</string><string name="ssdk_facebookmessenger_client_inavailable">目前您的FacebookMessenger版本过低或未安装，需要安装才能使用</string><string name="ssdk_sms_dialog_error_desc_103">请求参数列表中缺少必要数据</string><string name="ssdk_sms_dialog_error_desc_104">请求数据非法</string><string name="ssdk_sms_dialog_error_desc_101">没有权限请求</string><string name="ssdk_sms_dialog_error_desc_102">解密数据失败</string><string name="ssdk_sms_input_phone_hint">请输入手机号码</string><string name="ssdk_sms_dialog_login_success">登陆成功</string><string name="ssdk_sms_dialog_error_desc_100">服务器错误</string><string name="ssdk_yixin">易信</string><string name="ssdk_sina_web_close">关闭</string><string name="ssdk_sms_dialog_error_desc_109">发送短信太频繁</string><string name="ssdk_sms_dialog_error_desc_107">该号码超过接收验证码上\n限次数，请明日再试</string><string name="ssdk_facebook">Facebook</string><string name="ssdk_sms_dialog_error_desc_108">该设备超过请求发送验证\n码上限次数，请明日再试</string><string name="ssdk_qzone">QQ空间</string><string name="ssdk_share_to_facebook">分享到Facebook</string><string name="ssdk_instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string><string name="ssdk_sms_dialog_btn_ok">好</string><string name="ssdk_linkedin">领英</string><string name="ssdk_meipai">美拍</string><string name="ssdk_share_to_googleplus">分享到Google+</string><item name="ssdk_sms_id_ll_back" type="id"/><string name="ssdk_share_to_youtube">分享到Youtube</string><string name="ssdk_pinterest">Pinterest</string><string name="ssdk_sina_web_net_error">网络出错啦，请点击按钮重新加载</string><string name="ssdk_plurk">Plurk</string><string name="ssdk_gender_female">女</string><string name="ssdk_alipay">支付宝好友</string><string name="ssdk_wechat">微信好友</string><string name="ssdk_instapaper">Instapaper</string><string name="ssdk_sms_input_code_hint">请输入验证码</string><string name="ssdk_flickr">Flickr</string><string name="ssdk_weibo_oauth_regiseter">应用授权</string><string name="ssdk_sms_china">中国</string><string name="ssdk_pocket">Pocket</string><string name="ssdk_instapaper_logining">登录中…</string><string name="ssdk_share_to_qzone">分享到QQ空间</string><string name="ssdk_alipay_client_inavailable">目前您的支付宝版本过低或未安装，需要安装支付宝才能使用</string><string name="ssdk_weibo_upload_content">分享图片</string><string name="ssdk_kaixin">开心网</string><string name="ssdk_sms_dialog_send_success">发送成功</string><item name="ssdk_sms_id_llTitle" type="id"/><item name="ssdk_sms_id_iv_clear" type="id"/><string name="ssdk_alipaymoments">支付宝生活圈</string><string name="ssdk_sms_zone">国家/地区</string><string name="ssdk_sohumicroblog">搜狐微博</string><string name="ssdk_mingdao">明道</string><string name="ssdk_sms_dialog_error_des">您输入的是一个无效手机号码</string><item name="ssdk_sms_id_ivSearch" type="id"/><string name="ssdk_kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string><string name="ssdk_youdao">有道云笔记</string><string name="ssdk_instapaper_pwd">密码</string><string name="ssdk_website">http://www.mob.com</string><string name="ssdk_sms_top_identify_text">短信已发送，请填写验证码</string><string name="ssdk_instapaper_email">邮箱</string><string name="ssdk_sms_dialog_btn_back">返回</string><string name="ssdk_sms_send_again">重新发送</string><string name="ssdk_sina_web_refresh">重新加载</string><string name="ssdk_sms_dialog_voice_text">我们将以电话的方式告知您验证码，\n请注意接听</string><string name="ssdk_dingding">钉钉</string><string name="ssdk_tumblr">Tumblr</string><string name="ssdk_share_to_qzone_default">来自%s的分享</string><string name="ssdk_sms_btn_next">下一步</string><string name="ssdk_sms_phone">手机号</string><string name="ssdk_googleplus">Google+</string><string name="ssdk_email">邮件</string><string name="ssdk_sms_dialog_error_code">验证码不正确，请重新填写</string><item name="ssdk_sms_id_clCountry" type="id"/><string name="ssdk_sms_dialog_error_title">手机号码错误</string><string name="ssdk_foursquare">FourSquare</string><item name="ssdk_sms_id_tv_title" type="id"/><string name="ssdk_sms_dialog_btn_sure">我知道了</string><string name="ssdk_gender_male">男</string><string name="ssdk_dropbox">Dropbox</string><string name="ssdk_neteasemicroblog">网易微博</string><string name="ssdk_sms_dialog_smart_title">恭喜！该号码已通过云检测</string><string name="ssdk_laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string><string name="ssdk_laiwangmoments">来往动态</string><string name="ssdk_sms_dialog_smart_dec">您的设备为安全设备，该号码已通过智能\n云验证，无需短信验证\n（本验证过程不存在任何安全隐患）</string><string name="ssdk_sms_choose_country">选择国家和地区</string><string name="ssdk_google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string><string name="ssdk_laiwang">来往</string><string name="ssdk_sms_dialog_net_error">网络不给力，请稍后重试</string><string name="ssdk_whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string><string name="ssdk_share_to_qq">分享到QQ</string><string name="ssdk_share_to_mingdao">分享到明道</string><string name="ssdk_sms_dialog_close_identify_page">验证码短信可能略有延迟，确定返回\n并重新开始？</string><string name="ssdk_sohusuishenkan">搜狐随身看</string><string name="ssdk_shortmessage">信息</string><string name="ssdk_whatsapp">WhatsApp</string><string name="ssdk_sms_code">验证码</string><string name="ssdk_douban">豆瓣</string><string name="ssdk_qq">QQ</string><string name="ssdk_dont_keep_activitys_client">由于您已开启 不保留活动 ,导致授权功能无法正常使用.我们建议您点击左下方 设置 按钮,在 开发者选项 中关闭 不保留活动 功能.</string><string name="ssdk_use_login_button">请改用“登录”按钮</string><string name="ssdk_wechatmoments">微信朋友圈</string><string name="ssdk_sms_login">短信登陆</string><string name="ssdk_kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string><string name="ssdk_sinaweibo">新浪微博</string><string name="ssdk_mingdao_share_content">网页分享</string><string name="ssdk_bluetooth">蓝牙</string><string name="ssdk_line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string><item name="ssdk_sms_id_et_put_identify" type="id"/><string name="ssdk_sms_top_text">请输入您的手机号</string><string name="ssdk_sms_dialog_btn_cancel">取消</string><string name="ssdk_sms_dialog_btn_login">确认登陆</string><string name="ssdk_sms_country_search">搜索</string><string name="ssdk_wechatfavorite">微信收藏</string><string name="ssdk_line">Line</string><string name="ssdk_symbol_ellipsis">...</string><string name="ssdk_tencentweibo">腾讯微博</string><string name="ssdk_yixinmoments">易信朋友圈</string><string name="ssdk_instapager_email_or_password_incorrect">Email或密码不正确</string><string name="ssdk_sina_web_title">微博分享</string><string name="ssdk_evernote">印象笔记</string><string name="ssdk_kakaostory">KakaoStory</string><string name="ssdk_youtube">Youtube</string></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="xlistview_header_last_time">上次更新时间：</string><string name="idtxthint">用户名</string><string name="xlistview_header_hint_ready">松开刷新数据</string><string name="xlistview_header_hint_loading">正在加载...</string><string name="app_name">挥付收银台</string><string name="img_color">#F49514</string><string name="scan_text">将二维码放入框内, 即可自动扫描</string><string name="insert_card">插入卡</string><string name="xlistview_footer_hint_normal">查看更多</string><string name="menu_settings">Settings</string><string name="down_fail">下载失败</string><string name="title_activity_test">TestActivity</string><string name="pwdtxthint">密码</string><string name="xlistview_header_hint_normal">下拉刷新</string><string name="title_activity_setting">SettingActivity</string><string name="is_downing">正在下载</string><string name="xlistview_footer_hint_ready">松开载入更多</string><string name="loading">正在登录</string><string name="forgot_pwd">忘记密码？</string><string name="loginbtntext">登录</string></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values\styles.xml" qualifiers=""><color name="bbutton_danger">#ffd9534f</color><color name="bbutton_danger_disabled">#a5d9534f</color><style name="myProgressBarStyleLarge">
+
+        　　
+        <item name="android:indeterminateDrawable">@drawable/rotate_loading_icon</item>
+        <item name="android:indeterminateDuration">1500</item>
+
+        　　
+        <item name="android:minWidth">50dip</item>
+
+        　　
+        <item name="android:maxWidth">50dip</item>
+
+        　　
+        <item name="android:minHeight">50dip</item>
+
+        　　
+        <item name="android:maxHeight">50dip</item>
+    </style><color name="bbutton_info">#ff5bc0de</color><color name="bbutton_danger_disabled_edge">#a5d43f3a</color><color name="bbutton_danger_pressed_edge">#ffac2925</color><style name="edit_AlertDialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        
+    </style><style name="noticeProgressBarStyleLarge">
+
+        　　
+        <item name="android:indeterminateDrawable">@drawable/notice_loading</item>
+        <item name="android:indeterminateDuration">1500</item>
+
+        　　
+        <item name="android:minWidth">50dip</item>
+
+        　　
+        <item name="android:maxWidth">50dip</item>
+
+        　　
+        <item name="android:minHeight">50dip</item>
+
+        　　
+        <item name="android:maxHeight">50dip</item>
+    </style><style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style><style name="pop_add_ainm" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style><color name="bbutton_info_pressed_edge">#ff269abc</color><style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18dp</item>
+    </style><style name="MyCheckboxStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style><color name="bbutton_info_pressed">#ff39b3d7</color><color name="bbutton_danger_edge">#ffd43f3a</color><color name="bbutton_danger_pressed">#ffd2322d</color><style name="popupwindow_anim_style">
+
+        
+        <item name="android:windowEnterAnimation">@anim/show_from_bottom</item>
+        
+        <item name="android:windowExitAnimation">@anim/hide_to_bottom</item>
+    </style><color name="bbutton_info_disabled_edge">#a546b8da</color><style name="DialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style><color name="bbutton_info_edge">#ff46b8da</color><style name="myDialogTheme2" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style><style name="banklistPopup" parent="@android:style/Theme.Dialog">
+        <item name="android:windowEnterAnimation">@anim/list_pop_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/list_pop_hidden_anim</item>
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        
+        
+        
+        <item name="android:windowFullscreen">false</item>
+        
+        <item name="android:windowContentOverlay">@null</item>
+        
+    </style><color name="bbutton_info_disabled">#a55bc0de</color><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style><color name="bg_white">#FFFFFF</color></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file><file name="list_pop_hidden_anim" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\anim\list_pop_hidden_anim.xml" qualifiers="" type="anim"/><file name="list_pop_show_anim" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\anim\list_pop_show_anim.xml" qualifiers="" type="anim"/><file name="push_bottom_in" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\anim\push_bottom_in.xml" qualifiers="" type="anim"/><file name="push_bottom_out" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\anim\push_bottom_out.xml" qualifiers="" type="anim"/><file name="hide_to_bottom" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\anim\hide_to_bottom.xml" qualifiers="" type="anim"/><file name="show_from_bottom" path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\main\res\anim\show_from_bottom.xml" qualifiers="" type="anim"/></source><source path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\generated\res\rs\debug"/><source path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\src\debug\res"/></dataSet><mergedItems/></merger>

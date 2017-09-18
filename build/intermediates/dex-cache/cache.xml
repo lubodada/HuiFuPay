@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\libs\core4.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3e070d20fe4c3c5d06d5eb3465fb5fb621edc816">
+        <dex dex="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\intermediates\transforms\dex\debug\folders\1000\2\core4.7.5_4e5d143df36fac1508dd15e98409af066b238e9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1f73b1068e67cc8d7ee849013e3317895c6a713f">
+        <dex dex="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_fed25d8462f5b53d6cce8dd7ea84cf99cc0d923d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\libs\bw_pos_sdk2.0.17.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3b759aef6e7db9c721f475a141c48daa7007156b">
+        <dex dex="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\intermediates\transforms\dex\debug\folders\1000\2\bw_pos_sdk2.0.17_54814511a3d61be68ee5a8f4534aea4d7ac3c4dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.2-SNAPSHOT-with-sources_cf96882b903ff95c0eb5d80d3b7e48bc17c95a09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Administrator\Desktop\demo\HuiFuPay\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5a55cb812d4bfc09b35a80dc16820b3a04f62893\classes.dex" />
+    </item>
+
+</items>

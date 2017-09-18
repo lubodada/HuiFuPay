@@ -1,0 +1,16 @@
+#Thu Sep 14 15:30:34 CST 2017
+renamed.4=classes.dex
+renamed.3=classes3.dex
+renamed.2=classes2.dex
+renamed.1=classes5.dex
+base.4=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.2.4_bc781f63317b7791fbba9a6519ba3664738ce683
+renamed.0=classes4.dex
+base.3=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\bw_pos_sdk2.0.17_54814511a3d61be68ee5a8f4534aea4d7ac3c4dd
+base.2=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-19.1.0_480e9f0a1148a1758575ff695bfed5b3fcab8319
+base.1=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\universal-image-loader-1.9.2-SNAPSHOT-with-sources_cf96882b903ff95c0eb5d80d3b7e48bc17c95a09
+base.0=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\core4.7.5_4e5d143df36fac1508dd15e98409af066b238e9a
+file.4=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.2.4_bc781f63317b7791fbba9a6519ba3664738ce683\\classes.dex
+file.3=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\bw_pos_sdk2.0.17_54814511a3d61be68ee5a8f4534aea4d7ac3c4dd\\classes.dex
+file.2=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-19.1.0_480e9f0a1148a1758575ff695bfed5b3fcab8319\\classes.dex
+file.1=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\universal-image-loader-1.9.2-SNAPSHOT-with-sources_cf96882b903ff95c0eb5d80d3b7e48bc17c95a09\\classes.dex
+file.0=C\:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\core4.7.5_4e5d143df36fac1508dd15e98409af066b238e9a\\classes.dex

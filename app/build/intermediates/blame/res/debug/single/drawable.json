@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_input_area.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\shape_input_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uploadimage.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\uploadimage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_title_right_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\mm_title_right_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_tab_firstpage.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\ic_tab_firstpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\promptbox_dialog_view.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\promptbox_dialog_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_bottom_custom_dialog.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\bg_bottom_custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_gride.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\selector_gride.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_list.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\animation_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\payitem_button_style.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\payitem_button_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bbuton_info_rounded.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\bbuton_info_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_title_custom_dialog.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\bg_title_custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_oncleck_item_num.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\button_oncleck_item_num.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_progressbar.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rotate_loading_icon.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\rotate_loading_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_round.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\button_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_datainformation_view.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\round_datainformation_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_black_303132_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\loading_black_303132_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_time.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\button_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\keyboard_btn_selector_nor.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\keyboard_btn_selector_nor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textbackground.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\textbackground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_checkbox_icon_xxda_xxgh.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\bg_checkbox_icon_xxda_xxgh.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pg_l.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\pg_l.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\pg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bbuton_danger_rounded.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\bbuton_danger_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_window_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\popup_window_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_line_shape.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\divider_line_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_middle_custom_dialog.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\bg_middle_custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_style.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\checkbox_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_tab_thirdpage.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\ic_tab_thirdpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button_style.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\login_button_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_codeview.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\round_codeview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_title_back_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\mm_title_back_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fill_box.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\fill_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_imageview.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\round_imageview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_tab_secondpage.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\ic_tab_secondpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_key_del.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\selector_key_del.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notice_loading.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\notice_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_oncleck_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\button_oncleck_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\keyboard_btn_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\keyboard_btn_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_sharp.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\txt_sharp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qr_code_round.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\qr_code_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\keyboard_text_color_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\HuiFuPay\\app\\src\\main\\res\\drawable\\keyboard_text_color_selector.xml"
+    }
+]
