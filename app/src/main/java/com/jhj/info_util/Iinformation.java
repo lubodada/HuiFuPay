@@ -119,7 +119,7 @@ public class Iinformation {
 	/**
 	 * 存放银联注册所需图片
 	 * @param context
-	 * @param fileMap
+	 * @param strMap
 	 */
 	@SuppressWarnings("static-access")
 	public void Merchant_Img_String(Context context,Map<String, String> strMap) {
