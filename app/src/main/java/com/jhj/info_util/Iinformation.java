@@ -50,15 +50,15 @@ public class Iinformation {
 	 * 商户信息
 	 * 
 	 * @param context
-	 * @param usname
+	 * @param idCardName
 	 *            商户姓名
-	 * @param id_number
+	 * @param idCardNumber
 	 *            身份证号
-	 * @param bankcard_number
+	 * @param bankCardNumber
 	 *            银行卡号
 	 * @param bankcard
 	 *            开户行
-	 * @param shanghu_name
+	 * @param companyName
 	 *            商户名称
 	 * @param business_range
 	 *            经营范围
@@ -66,7 +66,7 @@ public class Iinformation {
 	 *            经营地址
 	 * @param detail_address
 	 *            详细地址
-	 * @param service_phone
+	 * @param mobileNumber
 	 *            服务电话
 	 */
 	@SuppressWarnings("static-access")
