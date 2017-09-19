@@ -47,7 +47,6 @@ import com.jhj.network.Http_PushTask;
 import com.jhjpay.zyb.R;
 import com.jhjpay.zyb.wxapi.ResourcesManager;
 import com.mining.app.zxing.image.QRImage;
-import com.mob.commons.SHARESDK;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 public class ImageCycleActivity extends Activity {
@@ -450,7 +449,7 @@ public class ImageCycleActivity extends Activity {
 					productId += reList.get(i).getProductId() + ",";
 				}
 				qr_code = productId.substring(0, productId.length() - 1);
-				url = "http://cnyssj.com/dfweb/sys/sysuser/login?"
+				url = "http://cnyssj.com/dfweb/sys/sysuser/register?"
 						+ "referrerId=" + uid + "&" + "productIds=" + qr_code;
 				scanbitmap = QRImage.createQRImage(url);
 				img_qr_code.setImageBitmap(QRImage
@@ -624,7 +623,7 @@ public class ImageCycleActivity extends Activity {
 	 * 初始化分享弹框
 	 */
 	private void showShare() {
-
+		
 		OnekeyShare oks = new OnekeyShare();
 		// 关闭sso授权
 		oks.disableSSOWhenAuthorize();
