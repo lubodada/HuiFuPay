@@ -49,6 +49,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 import android.widget.Toast;
@@ -75,7 +76,7 @@ import com.jhj.network.Http_PushTask;
 import com.jhj.servrce.UpdateService;
 import com.jhjpay.zyb.R;
 
-public class MainActivity extends Activity{
+public class MainActivity extends Activity {
 	private final static int SCANNIN_GREQUEST_CODE = 2;
 	Button mButton, query, refund, revoke, dia_Scancode_qd, dia_Scancode_qx;
 	static String monery = Integer.toString(0);
@@ -87,7 +88,7 @@ public class MainActivity extends Activity{
 	static TextView tx_amt, num_ok, tx00, tx_more, qrcode_but;
 	LinearLayout num_back;
 	ImageView setting, bt_QR_code;
-	// 设备终端号，收银员名称，商户号
+	// 设备终端号，收银员名称，商户号,
 	public static String clientId, cashiername, merchantId;
 	SharedPreferences_util su = new SharedPreferences_util();
 	Http_Pay_ZYB hp = new Http_Pay_ZYB();
@@ -120,28 +121,37 @@ public class MainActivity extends Activity{
 	private ViewPager mViewPager;
 	private ViewPagerAdapter mAdapter;
 	private ArrayList<View> pageview;
-	private Button quick,scancode,nfc,scanning_gun,swingcard;
-	private ImageButton toleft,toright;
+	private Button quick, scancode, nfc, scanning_gun, swingcard;
+	private ImageButton toleft, toright;
 
 	private PopupWindow pop;
-	//激活码
-	private Dialog code_dg,data_dg,settlement_dg,qr_code_dg,login_dg;
+	// 激活码
+	private Dialog code_dg, data_dg, settlement_dg, qr_code_dg, login_dg, qrcode_rb_dg;
 	private ImageButton img_codesao;
 	private EditText write_code;
-	private Button code_determine,code_cancel;
+	private Button code_determine, code_cancel;
 	private String code_write;
-	private Boolean write_code_off ,merchant_information_off,settlement_information_off,login_off;
-	private String uid; 
+	private Boolean write_code_off, merchant_information_off,
+	settlement_information_off, login_off;
+	private String uid;
 	private YWLoadingDialog mDialog;
 	String message;
-	//银联支付链接，收款人
-	String qr_code,receName;
+	// 银联支付链接，收款人
+	String qr_code, receName;
 	ImageView img_qr_code;
 	Button bt_webview;
 	TextView tv_receName;
 	private int QR_WIDTH = 300;
 	private int QR_HEIGHT = 300;
-	private String merchant;//商户资料集合
+	
+	//荣邦快捷支付
+	// 商户资料集合,银行卡号
+	private String merchant, bankNumber;
+	//卡类型(默认信用卡)
+	private String bankcardtype;
+	private RadioButton rbt_bankcardtype1,rbt_bankcardtype2;
+	private EditText et_bankCardNumber;
+	private Button bt_qx,bt_qd;
 
 	@SuppressWarnings("static-access")
 	@Override
@@ -157,15 +167,17 @@ public class MainActivity extends Activity{
 		merchantId = su.getPrefString(MainActivity.this, "merchantId", null);
 		cashiername = su.getPrefString(MainActivity.this, "cashiername", null);
 		Str_money = su.getPrefString(MainActivity.this, "money", null);
-		//激活码
-		write_code_off = su.getPrefboolean(MainActivity.this, "write_code_off", false);
-		//商户资料信息
-		merchant_information_off = su.getPrefboolean(MainActivity.this, "merchant_information_off", false);
-		//用户id
+		// 激活码
+		write_code_off = su.getPrefboolean(MainActivity.this, "write_code_off",
+				false);
+		// 商户资料信息
+		merchant_information_off = su.getPrefboolean(MainActivity.this,
+				"merchant_information_off", false);
+		// 用户id
 		uid = su.getPrefString(MainActivity.this, "uid", null);
 		// 商户信息集合
 		merchant = su.getPrefString(MainActivity.this, "merchant", null);
-		//判断是否已登录
+		// 判断是否已登录
 		login_off = su.getPrefboolean(MainActivity.this, "login_off", false);
 
 		// 弹出框
@@ -176,12 +188,12 @@ public class MainActivity extends Activity{
 		setContentView(R.layout.keyboadview2);
 		MyAppLication.getInstance().addActivity(this);
 		mDialog = new YWLoadingDialog(MainActivity.this);
-		initData();//初始化数据
+		initData();// 初始化数据
 
-		if(login_off == true){
+		if (login_off == true) {
 
-			if(merchant_information_off == false){
-				showInformationDialog(); 
+			if (merchant_information_off == false) {
+				showInformationDialog();
 			}
 		}
 		tx1 = (TextView) findViewById(R.id.num1);
@@ -195,7 +207,6 @@ public class MainActivity extends Activity{
 		tx9 = (TextView) findViewById(R.id.num9);
 		tx0 = (TextView) findViewById(R.id.num0);
 		tx00 = (TextView) findViewById(R.id.num00);
-
 
 		dia_Scancode_qd = (Button) dia_Scancode.findViewById(R.id.Scancode_qd);
 		dia_Scancode_qx = (Button) dia_Scancode.findViewById(R.id.Scancode_qx);
@@ -315,15 +326,16 @@ public class MainActivity extends Activity{
 		soundPool.load(this, R.raw.paymentsuccess, 1);
 		// 赋值
 	}
+
 	/**
 	 * 初始化激活码输入框
 	 */
-	public void showCodeDialog(){
+	public void showCodeDialog() {
 		code_dg = new Dialog(MainActivity.this, R.style.edit_AlertDialog_style);
 		code_dg.setContentView(R.layout.activity_dialog_activation_code);
 
-		img_codesao=(ImageButton) code_dg.findViewById(R.id.img_codesao);
-		write_code=(EditText) code_dg.findViewById(R.id.write_code);
+		img_codesao = (ImageButton) code_dg.findViewById(R.id.img_codesao);
+		write_code = (EditText) code_dg.findViewById(R.id.write_code);
 		code_determine = (Button) code_dg.findViewById(R.id.code_determine);
 		code_cancel = (Button) code_dg.findViewById(R.id.code_cancel);
 
@@ -338,7 +350,7 @@ public class MainActivity extends Activity{
 	/**
 	 * 初始化商户信息提示框
 	 */
-	public void showInformationDialog(){
+	public void showInformationDialog() {
 		data_dg = new Dialog(MainActivity.this, R.style.edit_AlertDialog_style);
 		data_dg.setContentView(R.layout.activity_dialog_data_information);
 
@@ -350,15 +362,18 @@ public class MainActivity extends Activity{
 		data_dg.setCanceledOnTouchOutside(false);
 		data_dg.show();
 	}
+
 	/**
 	 * 初始化登录提示框
 	 */
-	public void showLoginDialog(){
+	public void showLoginDialog() {
 		login_dg = new Dialog(MainActivity.this, R.style.edit_AlertDialog_style);
 		login_dg.setContentView(R.layout.activity_dialog_login);
 
-		TextView logincancel = (TextView) login_dg.findViewById(R.id.logincancel);
-		TextView loginperfect = (TextView) login_dg.findViewById(R.id.loginperfect);
+		TextView logincancel = (TextView) login_dg
+				.findViewById(R.id.logincancel);
+		TextView loginperfect = (TextView) login_dg
+				.findViewById(R.id.loginperfect);
 
 		logincancel.setOnClickListener(Onclick);
 		loginperfect.setOnClickListener(Onclick);
@@ -366,26 +381,33 @@ public class MainActivity extends Activity{
 		login_dg.setCanceledOnTouchOutside(false);
 		login_dg.show();
 	}
+
 	/**
 	 * 初始化结算信息提示框
 	 */
-	public void showSettLementDialog(){
-		settlement_dg = new Dialog(MainActivity.this, R.style.edit_AlertDialog_style);
-		settlement_dg.setContentView(R.layout.activity_dialog_settlementinformation);
+	public void showSettLementDialog() {
+		settlement_dg = new Dialog(MainActivity.this,
+				R.style.edit_AlertDialog_style);
+		settlement_dg
+		.setContentView(R.layout.activity_dialog_settlementinformation);
 
-		TextView cancel = (TextView) settlement_dg.findViewById(R.id.settlement_cancel);
-		TextView perfect = (TextView) settlement_dg.findViewById(R.id.settlement_perfect);
+		TextView cancel = (TextView) settlement_dg
+				.findViewById(R.id.settlement_cancel);
+		TextView perfect = (TextView) settlement_dg
+				.findViewById(R.id.settlement_perfect);
 		cancel.setOnClickListener(Onclick);
 		perfect.setOnClickListener(Onclick);
 
 		settlement_dg.setCanceledOnTouchOutside(false);
 		settlement_dg.show();
 	}
+
 	/**
 	 * 初始化快捷支付二维码提示框
 	 */
-	public void showQuickQr_CodeDialog(){
-		qr_code_dg = new Dialog(MainActivity.this, R.style.edit_AlertDialog_style);
+	public void showQuickQr_CodeDialog() {
+		qr_code_dg = new Dialog(MainActivity.this,
+				R.style.edit_AlertDialog_style);
 		qr_code_dg.setContentView(R.layout.activity_quickpay_qr_code);
 
 		img_qr_code = (ImageView) qr_code_dg.findViewById(R.id.img_qr_code);
@@ -394,32 +416,54 @@ public class MainActivity extends Activity{
 		bt_webview.setOnClickListener(myonclick);
 		qr_code_dg.setCanceledOnTouchOutside(true);
 	}
+	/**
+	 * 初始化快捷支付二维码提示框(荣邦同名)
+	 */
+	public void showQuickQr_CodeDialog_RB() {
+		qrcode_rb_dg = new Dialog(MainActivity.this,
+				R.style.edit_AlertDialog_style);
+		qrcode_rb_dg.setContentView(R.layout.activity_dialog_quickpay_rongbang);
+		rbt_bankcardtype1 = (RadioButton) qrcode_rb_dg.findViewById(R.id.rbt_bankcardtype1);
+		rbt_bankcardtype2 = (RadioButton) qrcode_rb_dg.findViewById(R.id.rbt_bankcardtype2);
+		et_bankCardNumber = (EditText) qrcode_rb_dg.findViewById(R.id.et_bankCardNumber);
+		bt_qx = (Button) qrcode_rb_dg.findViewById(R.id.bt_qx);
+		bt_qd = (Button) qrcode_rb_dg.findViewById(R.id.bt_qd);
+		
+		rbt_bankcardtype1.setOnClickListener(myonclick);
+		rbt_bankcardtype2.setOnClickListener(myonclick);
+		bt_qx.setOnClickListener(myonclick);
+		bt_qd.setOnClickListener(myonclick);
+		qrcode_rb_dg.setCanceledOnTouchOutside(false);
+		qrcode_rb_dg.show();
+	}
 
 	/**
 	 * 初始化PoPupWindow弹框
 	 */
 	@SuppressLint("InflateParams")
 	@SuppressWarnings("deprecation")
-	public void showPoPupWindow(){
-		LayoutInflater inflater = LayoutInflater.from(this);  
-		// 引入窗口配置文件  
-		View view = inflater.inflate(R.layout.activity_pay_popupwindow, null);  
-		// 创建PopupWindow对象  
-		pop = new PopupWindow(view, LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, false);  
-		// 需要设置一下此参数，点击外边可消失  
-		pop.setBackgroundDrawable(new BitmapDrawable());  
-		//设置点击窗口外边窗口消失  
-		pop.setOutsideTouchable(true);  
-		// 设置此参数获得焦点，否则无法点击  
+	public void showPoPupWindow() {
+		LayoutInflater inflater = LayoutInflater.from(this);
+		// 引入窗口配置文件
+		View view = inflater.inflate(R.layout.activity_pay_popupwindow, null);
+		// 创建PopupWindow对象
+		pop = new PopupWindow(view, LayoutParams.WRAP_CONTENT,
+				LayoutParams.WRAP_CONTENT, false);
+		// 需要设置一下此参数，点击外边可消失
+		pop.setBackgroundDrawable(new BitmapDrawable());
+		// 设置点击窗口外边窗口消失
+		pop.setOutsideTouchable(true);
+		// 设置此参数获得焦点，否则无法点击
 		pop.setFocusable(true);
 
 		LinearLayout cashier = (LinearLayout) view.findViewById(R.id.cashier);
-		LinearLayout collection_code = (LinearLayout) view.findViewById(R.id.collection_code);
+		LinearLayout collection_code = (LinearLayout) view
+				.findViewById(R.id.collection_code);
 
 		cashier.setOnClickListener(myonclick);
 		collection_code.setOnClickListener(myonclick);
 
-		// 显示窗口  
+		// 显示窗口
 		pop.showAsDropDown(bt_QR_code);
 	}
 
@@ -428,48 +472,53 @@ public class MainActivity extends Activity{
 	 */
 	@SuppressLint("InflateParams")
 	private void initData() {
-		toleft=(ImageButton) findViewById(R.id.toleft);
-		toright=(ImageButton) findViewById(R.id.toright);
+		toleft = (ImageButton) findViewById(R.id.toleft);
+		toright = (ImageButton) findViewById(R.id.toright);
 		toleft.setOnClickListener(Onclick);
 		toright.setOnClickListener(Onclick);
 
 		mViewPager = (ViewPager) findViewById(R.id.viewPager);
-		//查找布局文件用LayoutInflater.inflate
-		LayoutInflater inflater =this.getLayoutInflater();
-		View view1 = inflater.inflate(R.layout.activity_receivables_quick, null);
-		View view2 = inflater.inflate(R.layout.activity_receivables_scancode, null);
-		//		View view3 = inflater.inflate(R.layout.activity_receivables_nfc, null);
-		//		View view4 = inflater.inflate(R.layout.activity_receivables_scanninggun, null);
-		//		View view5 = inflater.inflate(R.layout.activity_receivables_swingcard, null);
+		// 查找布局文件用LayoutInflater.inflate
+		LayoutInflater inflater = this.getLayoutInflater();
+		View view1 = inflater
+				.inflate(R.layout.activity_receivables_quick, null);
+		View view2 = inflater.inflate(R.layout.activity_receivables_scancode,
+				null);
+		// View view3 = inflater.inflate(R.layout.activity_receivables_nfc,
+		// null);
+		// View view4 =
+		// inflater.inflate(R.layout.activity_receivables_scanninggun, null);
+		// View view5 =
+		// inflater.inflate(R.layout.activity_receivables_swingcard, null);
 
-		quick=(Button) view1.findViewById(R.id.quick);//快捷收款
-		scancode=(Button) view2.findViewById(R.id.scancode);//扫码收款
-		//		nfc=(Button) view3.findViewById(R.id.nfc);//nfc收款
-		//		scanning_gun=(Button) view4.findViewById(R.id.scanning_gun);//扫码枪收款
-		//		swingcard=(Button) view5.findViewById(R.id.swingcard);//刷卡收款
+		quick = (Button) view1.findViewById(R.id.quick);// 快捷收款
+		scancode = (Button) view2.findViewById(R.id.scancode);// 扫码收款
+		// nfc=(Button) view3.findViewById(R.id.nfc);//nfc收款
+		// scanning_gun=(Button) view4.findViewById(R.id.scanning_gun);//扫码枪收款
+		// swingcard=(Button) view5.findViewById(R.id.swingcard);//刷卡收款
 
 		quick.setOnClickListener(myonclick);
 		scancode.setOnClickListener(myonclick);
-		//		nfc.setOnClickListener(myonclick);
-		//		scanning_gun.setOnClickListener(myonclick);
-		//		swingcard.setOnClickListener(myonclick);
+		// nfc.setOnClickListener(myonclick);
+		// scanning_gun.setOnClickListener(myonclick);
+		// swingcard.setOnClickListener(myonclick);
 
-
-		//将view装入数组
-		pageview =new ArrayList<View>();
+		// 将view装入数组
+		pageview = new ArrayList<View>();
 		pageview.add(view1);
 		pageview.add(view2);
-		//		pageview.add(view3);
-		//		pageview.add(view4);
-		//		pageview.add(view5);
+		// pageview.add(view3);
+		// pageview.add(view4);
+		// pageview.add(view5);
 		mAdapter = new ViewPagerAdapter(this, pageview);
 		mViewPager.setAdapter(mAdapter);
 
 		// 将ViewPager定位到中间页（Short.MAX_VALUE/2附近的图片资源数组第1个元素对应的页面）
 		// 目的：1.图片个数 >1 才轮播 2.定位到中间页，向左向右都可滑
-		if( pageview.size()> 1) {
+		if (pageview.size() > 1) {
 			mViewPager.setCurrentItem(0, false);
-			//			mViewPager.setCurrentItem(((Short.MAX_VALUE / 2) / pageview.size()) * pageview.size(), false);
+			// mViewPager.setCurrentItem(((Short.MAX_VALUE / 2) /
+			// pageview.size()) * pageview.size(), false);
 		}
 	}
 
@@ -478,24 +527,26 @@ public class MainActivity extends Activity{
 		money_nm();
 		super.onStart();
 	}
+
 	/**
 	 * 判断是否输入激活码及完善商户信息
 	 */
-	public boolean isPerfect(){
+	public boolean isPerfect() {
 		boolean isPerfect = true;
-		if(login_off == false){
+		if (login_off == false) {
 			showLoginDialog();
-			isPerfect=false;
-		}else if(merchant_information_off == false){
-			showInformationDialog(); 
-			isPerfect=false;
+			isPerfect = false;
+		} else if (merchant_information_off == false) {
+			showInformationDialog();
+			isPerfect = false;
 		}
 		return isPerfect;
 	}
+
 	/**
 	 * 获取商户姓名
 	 */
-	public void getUsetInfo(){
+	public void getUsetInfo() {
 		try {
 			if (!TextUtils.isEmpty(merchant)) {
 				JSONObject jsonObject = new JSONObject(merchant);
@@ -506,18 +557,20 @@ public class MainActivity extends Activity{
 		}
 	}
 
-	View.OnClickListener Onclick = new OnClickListener() {
+	OnClickListener Onclick = new OnClickListener() {
 
 		@SuppressWarnings("static-access")
 		@Override
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
 			switch (v.getId()) {
-			case R.id.toleft:	
-				mViewPager.setCurrentItem(mViewPager.getCurrentItem()-1, true);
+			case R.id.toleft:
+				mViewPager
+				.setCurrentItem(mViewPager.getCurrentItem() - 1, true);
 				break;
-			case R.id.toright:	
-				mViewPager.setCurrentItem(mViewPager.getCurrentItem()+1, true);
+			case R.id.toright:
+				mViewPager
+				.setCurrentItem(mViewPager.getCurrentItem() + 1, true);
 				break;
 			case R.id.num00:
 				settextnum("00");
@@ -555,80 +608,89 @@ public class MainActivity extends Activity{
 			case R.id.num_back:
 				backTextNum();
 				break;
-			case R.id.img_codesao://激活码-扫一扫
+			case R.id.img_codesao:// 激活码-扫一扫
 				toast("暂不支持使用！");
 				break;
-			case R.id.code_determine://激活码-确定
-				if(!TextUtils.isEmpty(write_code.getText())){
-					code_write=write_code.getText().toString().trim();
-					if(code_write.equals("001")){
-						write_code_off=true;
-						su.setPrefboolean(MainActivity.this, "write_code_off", write_code_off);
+			case R.id.code_determine:// 激活码-确定
+				if (!TextUtils.isEmpty(write_code.getText())) {
+					code_write = write_code.getText().toString().trim();
+					if (code_write.equals("001")) {
+						write_code_off = true;
+						su.setPrefboolean(MainActivity.this, "write_code_off",
+								write_code_off);
 						code_dg.cancel();
-					}else{
+					} else {
 						toast("激活码错误");
-						write_code_off=false;
-						su.setPrefboolean(MainActivity.this, "write_code_off", write_code_off);
+						write_code_off = false;
+						su.setPrefboolean(MainActivity.this, "write_code_off",
+								write_code_off);
 					}
-				}else{
+				} else {
 					toast("请输入激活码");
 				}
-				break;	
-			case R.id.code_cancel://激活码-取消
+				break;
+			case R.id.code_cancel:// 激活码-取消
 				code_dg.cancel();
 				break;
-			case R.id.datacancel://资料信息-取消
+			case R.id.datacancel:// 资料信息-取消
 				data_dg.cancel();
 				break;
-			case R.id.dataperfect://完善商户资料信息
-				Intent dataintent = new Intent(MainActivity.this,ShangHu_Information_Activity.class);
+			case R.id.dataperfect:// 完善商户资料信息
+				Intent dataintent = new Intent(MainActivity.this,
+						ShangHu_Information_Activity.class);
 				startActivity(dataintent);
 				data_dg.cancel();
 				break;
-			case R.id.settlement_cancel://结算信息-取消
+			case R.id.settlement_cancel:// 结算信息-取消
 				settlement_dg.cancel();
 				break;
-			case R.id.settlement_perfect://完善结算信息
-				Intent setintent = new Intent(MainActivity.this,JieSuan_Information_Activity.class);
+			case R.id.settlement_perfect:// 完善结算信息
+				Intent setintent = new Intent(MainActivity.this,
+						JieSuan_Information_Activity.class);
 				startActivity(setintent);
 				settlement_dg.cancel();
 				break;
 			case R.id.logincancel://
 				login_dg.cancel();
 				break;
-			case R.id.loginperfect://登录
-				Intent loginintent = new Intent(MainActivity.this,LoginActivity.class);
+			case R.id.loginperfect:// 登录
+				Intent loginintent = new Intent(MainActivity.this,
+						LoginActivity.class);
 				startActivity(loginintent);
 				login_dg.cancel();
 				MainActivity.this.finish();
-				break;	
+				break;
 			default:
 				break;
 			}
 		}
 
 	};
-	View.OnClickListener myonclick = new OnClickListener() {
+	OnClickListener myonclick = new OnClickListener() {
 		@SuppressWarnings("static-access")
 		@Override
 		public void onClick(View v) {
 			// 商户信息集合
 			merchant = su.getPrefString(MainActivity.this, "merchant", null);
-			//商户资料信息
-			merchant_information_off = su.getPrefboolean(MainActivity.this, "merchant_information_off", false);
-			//激活码
-			write_code_off = su.getPrefboolean(MainActivity.this, "write_code_off", false);
-			//结算信息
-			settlement_information_off = su.getPrefboolean(MainActivity.this, "settlement_information_off", false);
-			//判断是否已登录
-			login_off = su.getPrefboolean(MainActivity.this, "login_off", false);
+			// 商户资料信息
+			merchant_information_off = su.getPrefboolean(MainActivity.this,
+					"merchant_information_off", false);
+			// 激活码
+			write_code_off = su.getPrefboolean(MainActivity.this,
+					"write_code_off", false);
+			// 结算信息
+			settlement_information_off = su.getPrefboolean(MainActivity.this,
+					"settlement_information_off", false);
+			// 判断是否已登录
+			login_off = su
+					.getPrefboolean(MainActivity.this, "login_off", false);
 			
-			if(!isPerfect()){
+			if (!isPerfect()) {
 				return;
 			}
 			switch (v.getId()) {
-			case R.id.scancode://扫码收款
-				
+			case R.id.scancode:// 扫码收款
+
 				if (Networkstate.isNetworkAvailable(MainActivity.this)) {
 					if (!TextUtils.isEmpty(monery)
 							&& Integer.parseInt(monery) > 0) {
@@ -665,26 +727,30 @@ public class MainActivity extends Activity{
 					toast("无可用网络！请连接网络后重试");
 				}
 				break;
-			case R.id.quick://快捷收款
+			case R.id.quick:// 快捷收款
 				getUsetInfo();
-				if(!TextUtils.isEmpty(monery)
-						&& Integer.parseInt(monery) > 0){
-					if(Integer.parseInt(monery) < 300){
+				if (!TextUtils.isEmpty(monery) && Integer.parseInt(monery) > 0) {
+					if (Integer.parseInt(monery) < 300) {
 						Toast.makeText(MainActivity.this, "金额不得低于300元！",
 								Toast.LENGTH_SHORT).show();
 						return;
 					}
 					mDialog.show();
 					mDialog.setCanceledOnTouchOutside(false);
+					//
 					(new quickPay()).start();
 
-				}else {
+				} else {
 					Toast.makeText(MainActivity.this, "请输入正确的金额！",
 							Toast.LENGTH_SHORT).show();
 				}
+				
+//				showQuickQr_CodeDialog_RB();
+				
 				break;
-			case R.id.bt_webview://打开快捷支付网页
-				Intent intent = new Intent(MainActivity.this,QuickPayActivity.class);
+			case R.id.bt_webview:// 打开快捷支付网页
+				Intent intent = new Intent(MainActivity.this,
+						QuickPayActivity.class);
 				intent.putExtra("qr_code", qr_code);
 				startActivity(intent);
 				qr_code_dg.dismiss();
@@ -693,10 +759,10 @@ public class MainActivity extends Activity{
 			case R.id.nfc:
 				toast("暂不支持使用");
 				break;
-			case R.id.scanning_gun://扫码枪收款
+			case R.id.scanning_gun:// 扫码枪收款
 				toast("暂不支持使用");
 				break;
-			case R.id.swingcard: //刷卡收款
+			case R.id.swingcard: // 刷卡收款
 				// print();
 				break;
 			case R.id.setting:
@@ -715,22 +781,47 @@ public class MainActivity extends Activity{
 				break;
 			case R.id.bt_QR_code:
 				QcTextNum();
-				// 显示窗口  
-				showPoPupWindow(); 
+				// 显示窗口
+				showPoPupWindow();
 				break;
-			case R.id.cashier://收银台
+			case R.id.cashier:// 收银台
 				toast("暂不支持使用");
-				//Intent caintent = new Intent(MainActivity.this,Cashier_Activity.class);
-				//startActivity(caintent);
+				// Intent caintent = new
+				// Intent(MainActivity.this,Cashier_Activity.class);
+				// startActivity(caintent);
 				pop.dismiss();
 				break;
-			case R.id.collection_code://收款码	
+			case R.id.collection_code:// 收款码
 				Intent inten = new Intent();
 				inten.setClass(MainActivity.this, QRcode_Activity.class);
 				startActivity(inten);
 				pop.dismiss();
 				break;
-			
+			case R.id.rbt_bankcardtype1://储蓄卡
+				bankcardtype = "1";
+				break;
+			case R.id.rbt_bankcardtype2://信用卡
+				bankcardtype = "2";
+				break;
+			case R.id.bt_qx:
+				qrcode_rb_dg.cancel();
+				break;
+			case R.id.bt_qd:
+				bankNumber = et_bankCardNumber.getText().toString().trim();
+				if(TextUtils.isEmpty(bankNumber)){
+					toast("请输入银行卡号！");
+					return;
+				}
+				if(TextUtils.isEmpty(bankcardtype)){
+					//卡类型默认为信用卡
+					bankcardtype = "2";
+				}
+				qrcode_rb_dg.cancel();
+				mDialog.show();
+				mDialog.setCanceledOnTouchOutside(false);
+				//荣邦同名
+				(new quickPay_SameName()).start();
+				break;
 			default:
 				break;
 			}
@@ -791,7 +882,7 @@ public class MainActivity extends Activity{
 
 	public void result() {
 		String result_r = dia_ed_Scancode.getText().toString();
-		if(TextUtils.isEmpty(result_r)){
+		if (TextUtils.isEmpty(result_r)) {
 			return;
 		}
 		int result = Integer.parseInt(result_r.substring(0, 2));
@@ -870,16 +961,20 @@ public class MainActivity extends Activity{
 				break;
 			case 7:
 				mDialog.dismiss();
-				//快捷支付弹框
+				// 快捷支付弹框
 				showQuickQr_CodeDialog();
 				final Bitmap scanbitmap = createQRImage(qr_code);
 				img_qr_code.setImageBitmap(GetRoundedCornerBitmap(scanbitmap));
-				tv_receName.setText("收款人:"+receName);
+				tv_receName.setText("收款人：" + receName);
 				qr_code_dg.show();
 				break;
 			case 8:
 				mDialog.dismiss();
 				toast(error_msg);
+				break;
+			case 9:
+				toast("获取数据失败！");
+				mDialog.dismiss();
 				break;
 			}
 		}
@@ -924,7 +1019,6 @@ public class MainActivity extends Activity{
 
 		}
 	}
-
 
 	class downLoad extends Thread {
 		@SuppressWarnings("static-access")
@@ -974,7 +1068,10 @@ public class MainActivity extends Activity{
 		}
 	}
 
-	class quickPay extends Thread{
+	/*
+	 * 掌游宝-银联快捷
+	 */
+	class quickPay extends Thread {
 		@Override
 		public void run() {
 			// TODO Auto-generated method stub
@@ -985,32 +1082,83 @@ public class MainActivity extends Activity{
 				quickMap.put("uid", uid);
 				quickMap.put("totalFee", monery);
 				Http_PushTask HP = new Http_PushTask();
-				String result = HP.execute(CryptTool.transMapToString(quickMap),
-						"http://cnyssj.com/dfweb/sys/payment/qrCodePay").get(10000,TimeUnit.MILLISECONDS);
+				String result = HP.execute(
+						CryptTool.transMapToString(quickMap),
+						"http://cnyssj.com/dfweb/sys/payment/qrCodePay").get(
+								10000, TimeUnit.MILLISECONDS);
 
 				if (!TextUtils.isEmpty(result)) {
 					JSONObject js = new JSONObject(result);
 					if (js.getBoolean("success")) {
-						qr_code = js.getJSONObject("value").getJSONObject("data").getString("qr_code");
+						qr_code = js.getJSONObject("value")
+								.getJSONObject("data").getString("qr_code");
 						showmessage(7);
 					} else {
 						error_msg = js.getString("messageText");
 						showmessage(8);
 					}
 				} else {
-					toast("获取数据失败！");
-					mDialog.dismiss();
+					showmessage(9);
 				}
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}catch (InterruptedException e) {
+			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (ExecutionException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}catch (TimeoutException e) {
+			} catch (TimeoutException e) {
+				toast("获取支付链接超时，请检查网络！");
+				e.printStackTrace();
+			}
+		}
+	}
+	/*
+	 * 荣邦(同名)-银联快捷
+	 */
+	class quickPay_SameName extends Thread {
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			super.run();
+			Looper.prepare();
+			try {
+				Map<String, String> quickMap = new HashMap<String, String>();
+				quickMap.put("merchantId", "121833");
+				quickMap.put("bankNumber", bankNumber);
+				quickMap.put("bankcardtype", bankcardtype);
+				quickMap.put("totalFee", monery);
+				Http_PushTask HP = new Http_PushTask();
+				String result = HP.execute(
+						CryptTool.transMapToString(quickMap),
+						"http://192.168.51.200:8080/spring06/rbkjyxd.do").get(
+								10000, TimeUnit.MILLISECONDS);
+
+				if (!TextUtils.isEmpty(result)) {
+					JSONObject js = new JSONObject(result);
+					if (js.getBoolean("success")) {
+						qr_code = js.getJSONObject("value")
+								.getJSONObject("data").getString("qr_code");
+						showmessage(7);
+					} else {
+						error_msg = js.getString("message");
+						showmessage(8);
+					}
+				} else {
+					showmessage(9);
+				}
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ExecutionException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (TimeoutException e) {
 				toast("获取支付链接超时，请检查网络！");
 				e.printStackTrace();
 			}
@@ -1058,7 +1206,7 @@ public class MainActivity extends Activity{
 				}
 			}
 			Bitmap bitmap = Bitmap.createBitmap(QR_WIDTH, QR_HEIGHT,
-					Bitmap.Config.ARGB_8888);
+					Config.ARGB_8888);
 			bitmap.setPixels(pixels, 0, QR_WIDTH, 0, 0, QR_WIDTH, QR_HEIGHT);
 			return bitmap;
 		} catch (Exception e) {
@@ -1066,6 +1214,7 @@ public class MainActivity extends Activity{
 		}
 		return null;
 	}
+
 	// 生成圆角图片
 	public static Bitmap GetRoundedCornerBitmap(Bitmap bitmap) {
 		try {
@@ -1093,6 +1242,7 @@ public class MainActivity extends Activity{
 			return bitmap;
 		}
 	}
+
 	public void toast(String str) {
 		Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
 	}
