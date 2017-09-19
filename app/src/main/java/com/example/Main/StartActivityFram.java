@@ -50,7 +50,7 @@ public class StartActivityFram extends Activity {
 		
 		dz.setFdm(su.getPrefString(StartActivityFram.this, "fdm", null));
 		image = (ImageView) findViewById(R.id.image_gif);
-		image.setBackgroundResource(R.anim.animation_list);
+		image.setBackgroundResource(R.drawable.animation_list);
 		ab = (AnimationDrawable) image.getBackground();
 		ab.setOneShot(false);
 		if (ab.isRunning()) {
