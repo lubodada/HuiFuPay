@@ -75,6 +75,7 @@ import com.jhj.SetUpActivity.ShangHu_Information_Activity;
 import com.jhj.network.Http_PushTask;
 import com.jhj.servrce.UpdateService;
 import com.jhjpay.zyb.R;
+import com.mining.app.zxing.image.QRImage;
 
 public class MainActivity extends Activity {
 	private final static int SCANNIN_GREQUEST_CODE = 2;
@@ -963,8 +964,8 @@ public class MainActivity extends Activity {
 				mDialog.dismiss();
 				// 快捷支付弹框
 				showQuickQr_CodeDialog();
-				final Bitmap scanbitmap = createQRImage(qr_code);
-				img_qr_code.setImageBitmap(GetRoundedCornerBitmap(scanbitmap));
+				final Bitmap scanbitmap = QRImage.createQRImage(qr_code);
+				img_qr_code.setImageBitmap(QRImage.GetRoundedCornerBitmap(scanbitmap));
 				tv_receName.setText("收款人：" + receName);
 				qr_code_dg.show();
 				break;
@@ -1182,66 +1183,6 @@ public class MainActivity extends Activity {
 		}
 	}
 
-	// 生成二维码图片
-	public Bitmap createQRImage(String url) {
-		try {
-			// 判断URL合法性
-			if (url == null || "".equals(url) || url.length() < 1) {
-				return null;
-			}
-			Hashtable<EncodeHintType, String> hints = new Hashtable<EncodeHintType, String>();
-			hints.put(EncodeHintType.CHARACTER_SET, "utf-8");
-
-			BitMatrix bitMatrix = new QRCodeWriter().encode(url,
-					BarcodeFormat.QR_CODE, QR_WIDTH, QR_HEIGHT);
-			int[] pixels = new int[QR_WIDTH * QR_HEIGHT];
-
-			for (int y = 0; y < QR_HEIGHT; y++) {
-				for (int x = 0; x < QR_WIDTH; x++) {
-					if (bitMatrix.get(x, y)) {
-						pixels[y * QR_WIDTH + x] = 0xff000000;
-					} else {
-						pixels[y * QR_WIDTH + x] = 0xffffffff;
-					}
-				}
-			}
-			Bitmap bitmap = Bitmap.createBitmap(QR_WIDTH, QR_HEIGHT,
-					Config.ARGB_8888);
-			bitmap.setPixels(pixels, 0, QR_WIDTH, 0, 0, QR_WIDTH, QR_HEIGHT);
-			return bitmap;
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	// 生成圆角图片
-	public static Bitmap GetRoundedCornerBitmap(Bitmap bitmap) {
-		try {
-			Bitmap output = Bitmap.createBitmap(bitmap.getWidth(),
-					bitmap.getHeight(), Config.ARGB_8888);
-			Canvas canvas = new Canvas(output);
-			final Paint paint = new Paint();
-			final Rect rect = new Rect(0, 0, bitmap.getWidth(),
-					bitmap.getHeight());
-			final RectF rectF = new RectF(new Rect(0, 0, bitmap.getWidth(),
-					bitmap.getHeight()));
-			final float roundPx = 15;
-			paint.setAntiAlias(true);
-			canvas.drawARGB(0, 0, 0, 0);
-			paint.setColor(Color.BLACK);
-			canvas.drawRoundRect(rectF, roundPx, roundPx, paint);
-			paint.setXfermode(new PorterDuffXfermode(Mode.SRC_IN));
-
-			final Rect src = new Rect(0, 0, bitmap.getWidth(),
-					bitmap.getHeight());
-
-			canvas.drawBitmap(bitmap, src, rect, paint);
-			return output;
-		} catch (Exception e) {
-			return bitmap;
-		}
-	}
 
 	public void toast(String str) {
 		Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
