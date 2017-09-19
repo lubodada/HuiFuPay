@@ -188,7 +188,7 @@ public class Utils {
 		// 原封不动的保存在内存卡上
 		mBitmap.compress(Bitmap.CompressFormat.PNG, 90, fOut);
 		try {
-			Toast.makeText(context, "图片已保存", Toast.LENGTH_LONG).show();
+//			Toast.makeText(context, "图片已保存", Toast.LENGTH_LONG).show();
 			fOut.flush();
 		} catch (IOException e) {
 			e.printStackTrace();
