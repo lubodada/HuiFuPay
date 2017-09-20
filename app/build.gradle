@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         applicationId "com.jhjpay.zyb"
-        minSdkVersion 8
-        targetSdkVersion 16
+        minSdkVersion 9
+        targetSdkVersion 19
 
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_7
