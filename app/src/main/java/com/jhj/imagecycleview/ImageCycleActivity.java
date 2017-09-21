@@ -14,6 +14,7 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -35,6 +36,8 @@ import com.bestpay.cn.utils.CryptTool;
 import com.bestpay.cn.utils.SharedPreferences_util;
 import com.example.Main.LoginActivity;
 import com.example.Main.MyAppLication;
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.WriterException;
 import com.jhj.Dialog.YWLoadingDialog;
 import com.jhj.Function.Recommend;
 import com.jhj.Function.TransactionRecordActivity;
@@ -46,6 +49,7 @@ import com.jhj.info_util.Utils;
 import com.jhj.network.Http_PushTask;
 import com.jhjpay.zyb.R;
 import com.jhjpay.zyb.wxapi.ResourcesManager;
+import com.mining.app.zxing.image.QRCodeUtil;
 import com.mining.app.zxing.image.QRImage;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
@@ -85,6 +89,7 @@ public class ImageCycleActivity extends Activity {
 	private String qr_code;
 	private YWLoadingDialog mDialog;
 	private String uid;// 用户id
+	private Bitmap logo;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -106,6 +111,8 @@ public class ImageCycleActivity extends Activity {
 		mAdView.setImageResources(infos, mAdCycleViewListener);
 		// 初始化推荐链接弹框
 		showQuickQr_CodeDialog();
+
+		logo= BitmapFactory.decodeResource(super.getResources(),R.drawable.ic_launcher);
 	}
 
 	/**
@@ -451,6 +458,7 @@ public class ImageCycleActivity extends Activity {
 				qr_code = productId.substring(0, productId.length() - 1);
 				url = "http://cnyssj.com/dfweb/sys/sysuser/register?"
 						+ "referrerId=" + uid + "&" + "productIds=" + qr_code;
+
 				scanbitmap = QRImage.createQRImage(url);
 				img_qr_code.setImageBitmap(QRImage
 						.GetRoundedCornerBitmap(scanbitmap));
