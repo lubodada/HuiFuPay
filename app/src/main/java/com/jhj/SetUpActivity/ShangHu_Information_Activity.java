@@ -1,5 +1,9 @@
 package com.jhj.SetUpActivity;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ExecutionException;
+
 import kankan.wheel.widget.OnWheelChangedListener;
 import kankan.wheel.widget.WheelView;
 import kankan.wheel.widget.adapters.ArrayWheelAdapter;
@@ -13,6 +17,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.support.v4.view.ViewPager.LayoutParams;
 import android.text.TextUtils;
 import android.view.Gravity;
@@ -23,14 +30,19 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ListPopupWindow;
 import android.widget.PopupWindow;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bestpay.cn.utils.CryptTool;
 import com.bestpay.cn.utils.SharedPreferences_util;
 import com.example.Main.MyAppLication;
+import com.jhj.Dialog.YWLoadingDialog;
 import com.jhj.info_util.Iinformation;
+import com.jhj.network.Http_PushTask;
 import com.jhjpay.zyb.R;
 
 /**
@@ -42,11 +54,20 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 
 	private EditText username,ID_number,bankcard,merchant_name,detailed_address,ver_phone;
 	private TextView management_scope,province_city,btnbank;
+	private LinearLayout ll_rb,ll_storeAddress;
 	private ImageButton img_back;
 	private Button next;
 	private String urname,id_number,bankcard_number,bank,shname,detai_address,phone,scope,city;
 	private String merchant;
-	
+	private String uid;
+	private String message;
+	//账户类型 0：企业账户  1:个人账户
+	private RadioButton rb_accounttype_0,rb_accounttype_1;
+	private String accounttype;
+	//银行卡类型   1：储蓄卡  2：信用卡
+	private RadioButton rb_bankcardtype_1,rb_bankcardtype_2;
+	private String bankcardtype;
+
 	final String scopearr[]=new String[]{  
 			"宾馆、酒店类","餐饮类","珠宝、工艺类","酒吧、KTV","其他娱乐类","房地产类",  
 			"服装类","汽车类","其他批发类","零售店","航空售票类","加油类",
@@ -60,11 +81,14 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 	};
 	private ListPopupWindow mListPop;
 	SharedPreferences_util su = new SharedPreferences_util();
+	//地址
 	private WheelView mViewProvince;
 	private WheelView mViewCity;
 	private WheelView mViewDistrict;
 	private TextView cancel,mBtnConfirm;
 	private PopupWindow city_pw;
+
+	private YWLoadingDialog mDialog;
 
 	@SuppressWarnings("static-access")
 	@Override
@@ -73,14 +97,20 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 		super.onCreate(savedInstanceState);
 		merchant=su.getPrefString(ShangHu_Information_Activity.this, "merchant", null);//商户信息集合
 		phone=su.getPrefString(ShangHu_Information_Activity.this, "userName", null);//手机号(登录的用户名)
+		uid = su.getPrefString(ShangHu_Information_Activity.this, "uid",null);// 用户id
 		setContentView(R.layout.activity_setup_shanghu_info);
 		MyAppLication.getInstance().addActivity(this);
+		mDialog = new YWLoadingDialog(ShangHu_Information_Activity.this);
 		initView();
 		showCityWindow();
 		showListPopupWindow();
 	}
 
 	public void initView(){
+		rb_accounttype_0 = (RadioButton) findViewById(R.id.rb_accounttype_0);//企业账户
+		rb_accounttype_1 = (RadioButton) findViewById(R.id.rb_accounttype_1);//个人账户
+		rb_bankcardtype_1 = (RadioButton) findViewById(R.id.rb_bankcardtype_1);//储蓄卡
+		rb_bankcardtype_2 = (RadioButton) findViewById(R.id.rb_bankcardtype_2);//信用卡
 		username=(EditText) findViewById(R.id.username);//商户姓名
 		ID_number=(EditText) findViewById(R.id.ID_number);//身份证号
 		bankcard=(EditText) findViewById(R.id.bankcard);//银行卡号
@@ -93,13 +123,21 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 		ver_phone.setText(phone);
 		img_back=(ImageButton) findViewById(R.id.img_back);//返回
 		next=(Button) findViewById(R.id.next);//下一步
+		ll_rb = (LinearLayout) findViewById(R.id.ll_rb);
+		ll_storeAddress = (LinearLayout) findViewById(R.id.ll_storeAddress);//
+		ll_rb.setVisibility(View.GONE);
+		ll_storeAddress.setVisibility(View.GONE);
 
+		rb_accounttype_0.setOnClickListener(this);
+		rb_accounttype_1.setOnClickListener(this);
+		rb_bankcardtype_1.setOnClickListener(this);
+		rb_bankcardtype_2.setOnClickListener(this);
 		management_scope.setOnClickListener(this);
 		btnbank.setOnClickListener(this);
 		img_back.setOnClickListener(this);
 		province_city.setOnClickListener(this);
 		next.setOnClickListener(this);
-		
+
 		try {
 			if(merchant != null){
 
@@ -129,6 +167,7 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 				//公司名称
 				if(!shname.equals("null")){
 					merchant_name.setText(shname);
+					merchant_name.setSelection(merchant_name.getText().toString().length());
 				}
 				//手机号
 				if(!phone.equals("null")){
@@ -150,7 +189,7 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 				if(!detai_address.equals("null")){
 					detailed_address.setText(detai_address);
 				}
-				
+
 			}
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
@@ -176,24 +215,24 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 	 */
 	@SuppressLint("NewApi")
 	public void showListPopupWindow(){
-		 mListPop = new ListPopupWindow(this);
-	        mListPop.setAdapter(new ArrayAdapter<Object>(this, R.layout.choice_item, bankarr));
-	        mListPop.setWidth(LayoutParams.MATCH_PARENT);
-	        mListPop.setHeight(LayoutParams.WRAP_CONTENT);
-	        mListPop.setAnchorView(findViewById(R.id.view_jiesuan_line));//设置ListPopupWindow的锚点，即关联PopupWindow的显示位置和这个锚点
-	        mListPop.setModal(true);//设置是否是模式
-	        mListPop.setVerticalOffset(3);
-	        mListPop.setDropDownGravity(Gravity.CENTER);
-	        mListPop.setBackgroundDrawable(new ColorDrawable(this.getResources().getColor(R.color.half)));
-	        mListPop.setOnItemClickListener(new OnItemClickListener() {
-				@Override
-				public void onItemClick(AdapterView<?> parent, View view,
-						int position, long id) {
-					// TODO Auto-generated method stub
-					btnbank.setText(bankarr[position]);
-					mListPop.dismiss();
-				}
-			});
+		mListPop = new ListPopupWindow(this);
+		mListPop.setAdapter(new ArrayAdapter<Object>(this, R.layout.choice_item, bankarr));
+		mListPop.setWidth(LayoutParams.MATCH_PARENT);
+		mListPop.setHeight(LayoutParams.WRAP_CONTENT);
+		mListPop.setAnchorView(findViewById(R.id.view_jiesuan_line));//设置ListPopupWindow的锚点，即关联PopupWindow的显示位置和这个锚点
+		mListPop.setModal(true);//设置是否是模式
+		mListPop.setVerticalOffset(3);
+		mListPop.setDropDownGravity(Gravity.CENTER);
+		mListPop.setBackgroundDrawable(new ColorDrawable(this.getResources().getColor(R.color.half)));
+		mListPop.setOnItemClickListener(new OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view,
+					int position, long id) {
+				// TODO Auto-generated method stub
+				btnbank.setText(bankarr[position]);
+				mListPop.dismiss();
+			}
+		});
 	}
 	/**
 	 * 加载省市区数据
@@ -221,7 +260,7 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 		city_pw.setAnimationStyle(R.style.popupwindow_anim_style);
 		//设置popupwindow背景
 		city_pw.setBackgroundDrawable(new ColorDrawable());
-//		pw.showAtLocation(getWindow().getDecorView(), Gravity.CENTER,0,0);
+		//		pw.showAtLocation(getWindow().getDecorView(), Gravity.CENTER,0,0);
 
 		//处理popupwindow
 		setUpViews(contentView);
@@ -296,12 +335,24 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 			city_pw.showAtLocation(getWindow().getDecorView(), Gravity.CENTER,0,0);
 			break;
 		case R.id.btn_confirm:
-			province_city.setText(mCurrentProviceName+"-"+mCurrentCityName+"-"+mCurrentDistrictName);
+			province_city.setText(mCurrentProviceName+mCurrentCityName+mCurrentDistrictName);
 			city_pw.dismiss();
 			break;
 		case R.id.btnbank:
 			mListPop.show();
 			break;	
+		case R.id.rb_accounttype_0:
+			accounttype = "0";
+			break;
+		case R.id.rb_accounttype_1:
+			accounttype = "1";
+			break;
+		case R.id.rb_bankcardtype_1:
+			bankcardtype = "1";
+			break;
+		case R.id.rb_bankcardtype_2:
+			bankcardtype = "2";
+			break;
 		case R.id.cancel:
 			city_pw.dismiss();
 			break;	
@@ -315,28 +366,122 @@ public class ShangHu_Information_Activity extends BaseActivity implements View.O
 			city=province_city.getText().toString().trim();
 			detai_address=detailed_address.getText().toString().trim();
 			phone=ver_phone.getText().toString().trim();
-			
+
 			if(TextUtils.isEmpty(urname)){
 				toast("商户姓名不能为空");
-			}else if(TextUtils.isEmpty(id_number)){
-				toast("身份证号不能为空");
-			}else if(TextUtils.isEmpty(bankcard_number)){
-				toast("银行卡号不能为空");
-			}else if(TextUtils.isEmpty(shname)){
-				toast("公司名称不能为空");
-			}else if(TextUtils.isEmpty(phone)){
-				toast("手机号不能为空");
-			}else{
-				Iinformation info = new Iinformation();
-				info.Merchant(ShangHu_Information_Activity.this, urname, id_number, bankcard_number, bank, shname, scope, city, detai_address, phone);
-				
-				Intent intent = new Intent(ShangHu_Information_Activity.this,ShangHuInfo_UploadPicturesActivity.class);
-				startActivity(intent);
+				return;
 			}
+			if(TextUtils.isEmpty(id_number)){
+				toast("身份证号不能为空");
+				return;
+			}
+			if(TextUtils.isEmpty(bankcard_number)){
+				toast("银行卡号不能为空");
+				return;
+			}
+			if(TextUtils.isEmpty(shname)){
+				toast("公司名称不能为空");
+				return;
+			}
+			if(TextUtils.isEmpty(phone)){
+				toast("手机号不能为空");
+				return;
+			}
+			
+			//保存商户信息
+			Iinformation info = new Iinformation();
+			info.Merchant(ShangHu_Information_Activity.this, urname, id_number, bankcard_number, bank, shname, scope, city, detai_address, phone);
+
+			Intent intent = new Intent(ShangHu_Information_Activity.this,ShangHuInfo_UploadPicturesActivity.class);
+			startActivity(intent);
+
+//			if(TextUtils.isEmpty(accounttype)){
+//				toast("请选择账户类型");
+//				return;
+//			}
+//			if(TextUtils.isEmpty(bankcardtype)){
+//				toast("请选择银行卡类型");
+//				return;
+//			}
+//			if(TextUtils.isEmpty(detai_address)){
+//				toast("门店地址不能为空");
+//				return;
+//			}
+//			
+//			(new upload_RBregister()).start();
+			
 			break;
 
 		default:
 			break;
+		}
+	}
+
+	// 发送handle
+	public void showmessage(int message) {
+		Message localMessage = new Message();
+		localMessage.what = message;
+		this.handler.sendMessage(localMessage);
+	}
+	@SuppressLint("HandlerLeak")
+	Handler handler = new Handler(){
+
+		public void handleMessage(Message msg) {
+			switch (msg.what) {
+			case 1:
+				mDialog.dismiss();
+				toast(message);
+				break;
+
+			default:
+				break;
+			}
+		};
+	};
+	/*
+	 * 荣邦(同名+普通)注册
+	 */
+	class upload_RBregister extends Thread {
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			Looper.prepare();
+
+			Map<String, String> param = new HashMap<String, String>();// 组装请求参数
+			param.put("idCardName", urname);
+			param.put("IDNumber", id_number);
+			param.put("bankNumber", bankcard_number);
+			param.put("companyName", shname);
+			param.put("mobilePhone", phone);
+			param.put("accounttype", accounttype);//账户类型
+			param.put("bankcardtype", bankcardtype);//银行卡类型
+			param.put("storeAddress", detai_address);//门店地址
+			param.put("uid", uid);
+
+			Http_PushTask HP = new Http_PushTask();
+			try {
+				String result = HP.execute(CryptTool.transMapToString(param),
+						"http://cnyssj.com/dfweb_test/rbkjsame.do").get();
+				if (!TextUtils.isEmpty(result)) {
+					JSONObject js = new JSONObject(result);
+					if (js.getBoolean("result")) {
+						message = js.getString("message");
+					} else {
+						message = js.getString("message");
+					}
+					showmessage(1);
+				}
+
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ExecutionException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 
