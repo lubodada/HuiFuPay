@@ -2,7 +2,6 @@ package com.example.Main;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
@@ -16,14 +15,6 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.Bitmap.Config;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.PorterDuff.Mode;
-import android.graphics.PorterDuffXfermode;
-import android.graphics.Rect;
-import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
 import android.media.AudioManager;
 import android.media.SoundPool;
@@ -63,10 +54,6 @@ import com.bestpay.cn.utils.Networkstate;
 import com.bestpay.cn.utils.SharedPreferences_util;
 import com.bestpay.cn.utils.Version_util;
 import com.bestpay.cn.utils.ViewPagerAdapter;
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.EncodeHintType;
-import com.google.zxing.common.BitMatrix;
-import com.google.zxing.qrcode.QRCodeWriter;
 import com.jhj.Agreement.ZYB.Http_Pay_ZYB;
 import com.jhj.Agreement.ZYB.Http_Revoke_ZYB;
 import com.jhj.Dialog.YWLoadingDialog;
@@ -142,8 +129,6 @@ public class MainActivity extends Activity {
 	ImageView img_qr_code;
 	Button bt_webview;
 	TextView tv_receName;
-	private int QR_WIDTH = 300;
-	private int QR_HEIGHT = 300;
 	
 	//荣邦快捷支付
 	// 商户资料集合,银行卡号
@@ -157,7 +142,6 @@ public class MainActivity extends Activity {
 	@SuppressWarnings("static-access")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-
 		super.onCreate(savedInstanceState);
 
 		SysApplication.getInstance().addActivity(this);
@@ -731,7 +715,7 @@ public class MainActivity extends Activity {
 			case R.id.quick:// 快捷收款
 				getUsetInfo();
 				if (!TextUtils.isEmpty(monery) && Integer.parseInt(monery) > 0) {
-					if (Integer.parseInt(monery) < 300) {
+					if (Integer.parseInt(monery)/100 < 300) {
 						Toast.makeText(MainActivity.this, "金额不得低于300元！",
 								Toast.LENGTH_SHORT).show();
 						return;
@@ -1113,6 +1097,8 @@ public class MainActivity extends Activity {
 			} catch (TimeoutException e) {
 				toast("获取支付链接超时，请检查网络！");
 				e.printStackTrace();
+			}finally{
+				mDialog.dismiss();
 			}
 		}
 	}
@@ -1127,7 +1113,7 @@ public class MainActivity extends Activity {
 			Looper.prepare();
 			try {
 				Map<String, String> quickMap = new HashMap<String, String>();
-				quickMap.put("merchantId", "121833");
+				quickMap.put("merchantId", "122301");
 				quickMap.put("bankNumber", bankNumber);
 				quickMap.put("bankcardtype", bankcardtype);
 				quickMap.put("totalFee", monery);
@@ -1139,12 +1125,15 @@ public class MainActivity extends Activity {
 
 				if (!TextUtils.isEmpty(result)) {
 					JSONObject js = new JSONObject(result);
-					if (js.getBoolean("success")) {
-						qr_code = js.getJSONObject("value")
-								.getJSONObject("data").getString("qr_code");
+					if (js.getBoolean("result")) {
+						qr_code = js.getString("qr_code");
 						showmessage(7);
 					} else {
-						error_msg = js.getString("message");
+						if(js.has("data")){
+							error_msg = js.getString("data");
+						}else{
+							error_msg = js.getString("message");
+						}
 						showmessage(8);
 					}
 				} else {
@@ -1162,6 +1151,8 @@ public class MainActivity extends Activity {
 			} catch (TimeoutException e) {
 				toast("获取支付链接超时，请检查网络！");
 				e.printStackTrace();
+			}finally{
+				mDialog.dismiss();
 			}
 		}
 	}
@@ -1185,7 +1176,7 @@ public class MainActivity extends Activity {
 
 
 	public void toast(String str) {
-		Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
+		Toast.makeText(MainActivity.this, str, Toast.LENGTH_LONG).show();
 	}
 
 }
